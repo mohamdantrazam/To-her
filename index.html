@@ -1,0 +1,3523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>This message comes from Southern Egypt to the Queen of Czechia — Habibi & Lenča ❤️</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Great+Vibes&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --lapis-deep: #060b18;
+      --lapis-mid: #0f1d3a;
+      --lapis-royal: #172a52;
+      --pharaoh-gold: #d4af37;
+      --pharaoh-gold-light: #fef08a;
+      --papyrus-cream: #fcf9f2;
+      --egypt-red: #ce1126;
+    }
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    .selectable-text, .selectable-text * {
+      user-select: text !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(ellipse at 50% 12%, #1b315e 0%, #0d1933 48%, #060b17 100%);
+      min-height: 100vh;
+      overflow-x: hidden;
+      color: #f8fafc;
+      perspective: 2200px;
+    }
+    .font-serif-romantic {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .font-pharaonic {
+      font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+    }
+    .font-script-romantic {
+      font-family: 'Great Vibes', cursive;
+    }
+    .font-classic-editorial {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+
+    /* Classic Romantic Cover & 3D Storybook Page-Turn Effect */
+    #romantic-cover-overlay {
+      background:
+        radial-gradient(circle at 50% 32%, rgba(255, 228, 230, 0.16) 0%, transparent 60%),
+        radial-gradient(circle at 20% 80%, rgba(212, 175, 55, 0.14) 0%, transparent 50%),
+        linear-gradient(160deg, #2b0918 0%, #4c1127 38%, #330b1b 72%, #1a050d 100%);
+      transform-origin: left center;
+      transform-style: preserve-3d;
+      transition: transform 1.15s cubic-bezier(0.64, 0.04, 0.26, 1), opacity 1.05s ease-in-out, box-shadow 1.15s ease;
+      box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.65);
+    }
+    .cover-page-flipped {
+      transform: perspective(2200px) rotateY(-108deg) scale(0.96) !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      box-shadow: 60px 0 120px rgba(0, 0, 0, 0.85) !important;
+    }
+
+    /* Main Content Page-Reveal Entrance */
+    @keyframes pageRevealGlow {
+      0% { filter: brightness(1.35) contrast(1.05); transform: scale(0.985); }
+      100% { filter: brightness(1) contrast(1); transform: scale(1); }
+    }
+    .page-just-turned {
+      animation: pageRevealGlow 0.95s ease-out forwards;
+    }
+
+    /* Cake Button Gentle Float & Candle Flicker */
+    @keyframes cakeFloat {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-6px) scale(1.03); }
+    }
+    @keyframes candleFlame {
+      0%, 100% { transform: scale(1, 1) rotate(-2deg); opacity: 0.95; }
+      50% { transform: scale(1.12, 1.18) rotate(3deg); opacity: 1; }
+    }
+    .cake-btn-anim {
+      animation: cakeFloat 2.8s ease-in-out infinite;
+    }
+    .candle-flame-anim {
+      transform-origin: 60px 18px;
+      animation: candleFlame 0.45s ease-in-out infinite;
+    }
+
+    /* 4K Night Sky Moon Aura */
+    .moon-glow {
+      background: radial-gradient(circle, rgba(255, 252, 230, 1) 0%, rgba(253, 224, 71, 0.92) 38%, rgba(212, 175, 55, 0.32) 68%, rgba(212, 175, 55, 0) 100%);
+      box-shadow: 0 0 65px 26px rgba(253, 224, 71, 0.26), 0 0 130px 52px rgba(212, 175, 55, 0.14);
+    }
+
+    /* Royal Pharaonic & European Gold Cartouche Border */
+    .pharaonic-gold-border {
+      background: linear-gradient(135deg, #b48608 0%, #ffd700 25%, #fff6cc 50%, #d4af37 75%, #8a6405 100%);
+      padding: 3px;
+      box-shadow: 0 22px 60px -10px rgba(0, 0, 0, 0.72), 0 0 35px rgba(212, 175, 55, 0.25);
+    }
+
+    /* Vintage Air Mail + Pharaonic Royal Trim */
+    .airmail-border {
+      background: repeating-linear-gradient(
+        -45deg,
+        #ce1126 0px,
+        #ce1126 11px,
+        #fffdf7 11px,
+        #fffdf7 20px,
+        #d4af37 20px,
+        #d4af37 31px,
+        #0f172a 31px,
+        #0f172a 42px
+      );
+      padding: 7px;
+      box-shadow: 0 25px 65px rgba(0, 0, 0, 0.65), 0 0 35px rgba(212, 175, 55, 0.28);
+    }
+
+    /* European Luxury Papyrus-Cream Stationery Card */
+    .stationery-card {
+      background: linear-gradient(180deg, #fffdf9 0%, #f9f3e5 100%);
+      color: #292524;
+      box-shadow: 0 28px 70px -12px rgba(0, 0, 0, 0.72), 0 0 42px rgba(212, 175, 55, 0.24);
+    }
+    .stationery-inner-frame {
+      border: 2px solid #d4af37;
+      position: relative;
+    }
+    .stationery-inner-frame::before {
+      content: '';
+      position: absolute;
+      inset: 4px;
+      border: 1px solid rgba(212, 175, 55, 0.45);
+      pointer-events: none;
+    }
+
+    /* Natural Organic Cat Physics, Royal Standing & Superman Flight Keyframes */
+    @keyframes tailSwayOrganic {
+      0%, 100% { transform: rotate(-16deg) scaleY(1); }
+      25% { transform: rotate(4deg) scaleY(1.02); }
+      50% { transform: rotate(22deg) scaleY(0.98); }
+      75% { transform: rotate(-2deg) scaleY(1.01); }
+    }
+    @keyframes tailSwayExcited {
+      0%, 100% { transform: rotate(-30deg); }
+      50% { transform: rotate(30deg); }
+    }
+    @keyframes earFlutterL {
+      0%, 84%, 100% { transform: rotate(0deg); }
+      88% { transform: rotate(-12deg); }
+      93% { transform: rotate(4deg); }
+    }
+    @keyframes earFlutterR {
+      0%, 76%, 100% { transform: rotate(0deg); }
+      81% { transform: rotate(13deg); }
+      86% { transform: rotate(-5deg); }
+    }
+    @keyframes breatheSoft {
+      0%, 100% { transform: translateY(0px) scale(1, 1); }
+      50% { transform: translateY(-2.5px) scale(1.018, 1.025); }
+    }
+    @keyframes walkStride {
+      0%, 100% { transform: translateY(0px) rotate(-1.8deg); }
+      25% { transform: translateY(-6px) rotate(0deg); }
+      50% { transform: translateY(0px) rotate(1.8deg); }
+      75% { transform: translateY(-6px) rotate(0deg); }
+    }
+    /* Royal Standing Pose (3-Click Toggle — Kept Clear of All Overlays!) */
+    @keyframes standRoyalBreathe {
+      0%, 100% { transform: translateY(-10px) scale(1, 1.07) rotate(0deg); }
+      50% { transform: translateY(-14px) scale(1.02, 1.09) rotate(1.2deg); }
+    }
+    @keyframes standFrontPawsWave {
+      0%, 100% { transform: translateY(-26px) rotate(-12deg); }
+      50% { transform: translateY(-32px) rotate(12deg); }
+    }
+    /* Superman Heroic Flight Pose! */
+    @keyframes supermanBodyTilt {
+      0%, 100% { transform: rotate(24deg) scale(1.06, 0.96) translateY(-4px); }
+      50% { transform: rotate(19deg) scale(1.08, 0.95) translateY(4px); }
+    }
+    @keyframes supermanFrontPawReach {
+      0%, 100% { transform: translate(26px, -42px) rotate(-65deg) scaleY(1.2); }
+      50% { transform: translate(29px, -45px) rotate(-60deg) scaleY(1.25); }
+    }
+    @keyframes supermanBackPawsTrail {
+      0%, 100% { transform: translate(-18px, 6px) rotate(42deg); }
+      50% { transform: translate(-21px, 9px) rotate(48deg); }
+    }
+    @keyframes supermanCapeFlutter {
+      0%, 100% { transform: skewX(-10deg) scaleY(1.08); }
+      50% { transform: skewX(12deg) scaleY(1.16); }
+    }
+    @keyframes headPendulumSwing {
+      0%, 100% { transform: rotate(-15deg) translateX(-4px); }
+      50% { transform: rotate(15deg) translateX(4px); }
+    }
+    @keyframes pupilPendulumSwing {
+      0%, 100% { transform: translateX(-4.8px) translateY(-0.5px); }
+      50% { transform: translateX(4.8px) translateY(-0.5px); }
+    }
+    @keyframes headTalkNod {
+      0%, 100% { transform: rotate(-2.5deg) translateY(0px); }
+      50% { transform: rotate(3deg) translateY(-2.5px); }
+    }
+    @keyframes joyJumpBounce {
+      0%, 100% { transform: translateY(0) scale(1, 1); }
+      18% { transform: translateY(3px) scale(1.06, 0.93); }
+      45% { transform: translateY(-34px) scale(0.95, 1.06) rotate(-4deg); }
+      72% { transform: translateY(-12px) scale(1.02, 0.98) rotate(4deg); }
+    }
+    @keyframes laughGiggleBounce {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-4px) rotate(-3deg); }
+      50% { transform: translateY(1px) rotate(3deg); }
+      75% { transform: translateY(-4px) rotate(-2deg); }
+    }
+    @keyframes pawStepLeft {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(14deg); }
+    }
+    @keyframes pawStepRight {
+      0%, 100% { transform: translateY(-8px) rotate(-14deg); }
+      50% { transform: translateY(0) rotate(0deg); }
+    }
+    @keyframes danglePaws {
+      0%, 100% { transform: translateY(3px) rotate(-9deg); }
+      50% { transform: translateY(5px) rotate(11deg); }
+    }
+    @keyframes yarnJiggle {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      35% { transform: translateY(-15px) rotate(24deg); }
+      70% { transform: translateY(-5px) rotate(-18deg); }
+    }
+    @keyframes tapButtonPulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4); }
+      50% { transform: scale(1.05); box-shadow: 0 12px 34px rgba(212, 175, 55, 0.7); }
+    }
+
+    .cat-tail { transform-origin: 54px 134px; animation: tailSwayOrganic 2.6s ease-in-out infinite; }
+    .cat-tail-fast { transform-origin: 54px 134px; animation: tailSwayExcited 0.5s ease-in-out infinite; }
+    .cat-ear-l { transform-origin: 68px 54px; animation: earFlutterL 4.4s ease-in-out infinite; }
+    .cat-ear-r { transform-origin: 132px 54px; animation: earFlutterR 5.1s ease-in-out infinite; }
+    .cat-body-idle { transform-origin: 100px 145px; animation: breatheSoft 3.1s ease-in-out infinite; }
+    .cat-body-walk { transform-origin: 100px 145px; animation: walkStride 0.48s ease-in-out infinite; }
+    .cat-body-jump { transform-origin: 100px 145px; animation: joyJumpBounce 0.72s ease-in-out infinite; }
+    .cat-body-laugh { transform-origin: 100px 145px; animation: laughGiggleBounce 0.36s ease-in-out infinite; }
+    .cat-body-stand { transform-origin: 100px 164px; animation: standRoyalBreathe 2.2s ease-in-out infinite; }
+    .cat-body-superman { transform-origin: 100px 120px; animation: supermanBodyTilt 0.45s ease-in-out infinite; }
+    .paw-stand-royal { transform-origin: 100px 125px; animation: standFrontPawsWave 1.6s ease-in-out infinite; }
+    .paw-superman-front { transform-origin: 100px 135px; animation: supermanFrontPawReach 0.45s ease-in-out infinite; }
+    .paw-superman-back { transform-origin: 100px 160px; animation: supermanBackPawsTrail 0.45s ease-in-out infinite; }
+    .cape-superman-wave { transform-origin: 100px 115px; animation: supermanCapeFlutter 0.25s ease-in-out infinite; }
+    .cat-head-pendulum { transform-origin: 100px 92px; animation: headPendulumSwing 1.0s ease-in-out infinite; }
+    .cat-head-talking { transform-origin: 100px 92px; animation: headTalkNod 0.38s ease-in-out infinite; }
+    .cat-pupils-pendulum { animation: pupilPendulumSwing 1.0s ease-in-out infinite; }
+    .paw-walk-a { transform-origin: center top; animation: pawStepLeft 0.48s ease-in-out infinite; }
+    .paw-walk-b { transform-origin: center top; animation: pawStepRight 0.48s ease-in-out infinite; }
+    .paw-dangle { transform-origin: center top; animation: danglePaws 0.55s ease-in-out infinite; }
+    .yarn-active { animation: yarnJiggle 0.55s ease-in-out infinite; }
+    .btn-pulse-glow { animation: tapButtonPulse 2.2s ease-in-out infinite; }
+
+    /* Envelope Flap 3D Flip */
+    .envelope-flap {
+      transform-origin: top center;
+      transition: transform 0.75s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .envelope-flap-open {
+      transform: rotateX(180deg);
+    }
+
+    /* Smooth Custom Scrollbar for Letter */
+    .letter-scroll::-webkit-scrollbar { width: 5px; }
+    .letter-scroll::-webkit-scrollbar-track { background: rgba(212, 175, 55, 0.12); border-radius: 8px; }
+    .letter-scroll::-webkit-scrollbar-thumb { background: rgba(212, 175, 55, 0.55); border-radius: 8px; }
+  
+    body{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+    svg{shape-rendering:geometricPrecision}
+    @keyframes stageIn{0%{opacity:0;transform:translateY(32px) scale(.95);filter:blur(12px)}60%{filter:blur(0)}100%{opacity:1;transform:none;filter:none}}
+    #envelope-stage:not(.hidden),#letter-stage:not(.hidden),#countdown-panel:not(.hidden){animation:stageIn .8s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes goldShimmer{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+    .pharaonic-gold-border{background-size:200% 200%;animation:goldShimmer 7s linear infinite}
+    @keyframes moonPulse{0%,100%{filter:brightness(1)}50%{filter:brightness(1.15)}}
+    .moon-glow{animation:moonPulse 6s ease-in-out infinite}
+    #habibi-svg{filter:drop-shadow(0 0 14px rgba(251,191,36,.28)) drop-shadow(0 12px 20px rgba(0,0,0,.5))}
+    @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body id="main-page-body" class="relative min-h-screen flex flex-col justify-between overflow-x-hidden">
+
+  <!-- Embedded Default State JSON -->
+  <script id="gift-config-data" type="application/json">
+{
+  "recipientName": "Lenča",
+  "senderName": "Azam",
+  "senderAltName": "Mohamed",
+  "catName": "Habibi",
+  "coverQuote": "This message comes from Southern Egypt to the Queen of Czechia",
+  "arrivalIsoEgypt": "2026-11-02T09:00:00+02:00",
+  "arrivalDisplayLabel": "November 2, 2026 • 9:00 AM (Hurghada / Egypt Time)",
+  "greetingBubble": "Meow! Greetings Queen Lenča! I'm Habibi 👑🇪🇬 Tap me 3x to stand, press 'Fly 5s' to see me fly like Superman, or click 'Tap to open'!",
+  "deliverySpeech": "Wait, Lenča! Before this royal envelope opens, Mohamed Azam in Southern Egypt entrusted me to deliver this message to you myself! He wants the Queen of Czechia to know how deeply he loves you.",
+  "countdownSpeech": "Yay! Look at my head and eyes swinging tick-tock with the clock, Lenča! I'm waiting for you at Hurghada Airport! Don't forget to bring the chocolate with you!",
+  "cardSmallHeader": "ROYAL EGYPTIAN DISPATCH",
+  "letterTitle": "Dear My Love, Queen Lenča ❤️",
+  "letterBody": "Dobré ráno, má krásko. I ptáčci čekají, až se probudíš, aby mohli začít zpívat. ❤️\n\nVčera večer jsem cítil něco, co se nedá popsat slovy. Bylo tolik věcí, které jsem ti chtěl říct, tolik slov, která jsem ti chtěl věnovat, a možná mi ani celý čas na světě nebude stačit, abych ti dokázal vyjádřit všechno, co nosím v srdci.\n\nKdyž jsi včera večer při sledování filmu usnula, byla jsi nádherná. A když ses probudila, byla jsi ještě krásnější.\n\nA dnes ráno budeš krásnější než kdykoli předtím, než ses v minulosti probudila do nového dne.\n\nKaždý den znovu vyjde slunce, květiny rozkvetou a ptáčci budou zpívat před oknem tvého pokoje.\n\nA já ti budu psát další a další dopisy, ve kterých se ti budu snažit vyjádřit svou vděčnost za to, že jsi součástí mého života. Budu ti je psát tak dlouho, dokud mi vlasy nezešediví a dokud už nebudu mít sílu se ani pohnout. ❤️\n\nDobré ráno, ty, která jsi pro mě tím nejkrásnějším dobrem na světě. ❤️\n\nUvidím tě.\n\n{{COUNTDOWN}}",
+  "letterSignature": "with eternal love, Mohamed (Azam) ❤️",
+  "voicePitch": 1.05,
+  "voiceRate": 0.94,
+  "preferredVoiceName": "",
+  "autoReadOnOpen": false,
+  "customIntroAudioDataUrl": "",
+  "customAirportAudioDataUrl": "",
+  "hideCustomizer": false,
+  "savedTemplates": [
+    {
+      "id": "tpl-default",
+      "title": "Royal Morning Letter — Live Hurghada Countdown",
+      "letterTitle": "Dear My Love, Queen Lenča ❤️",
+      "letterBody": "Dobré ráno, má krásko. I ptáčci čekají, až se probudíš, aby mohli začít zpívat. ❤️\n\nVčera večer jsem cítil něco, co se nedá popsat slovy. Bylo tolik věcí, které jsem ti chtěl říct, tolik slov, která jsem ti chtěl věnovat, a možná mi ani celý čas na světě nebude stačit, abych ti dokázal vyjádřit všechno, co nosím v srdci.\n\nKdyž jsi včera večer při sledování filmu usnula, byla jsi nádherná. A když ses probudila, byla jsi ještě krásnější.\n\nA dnes ráno budeš krásnější než kdykoli předtím, než ses v minulosti probudila do nového dne.\n\nKaždý den znovu vyjde slunce, květiny rozkvetou a ptáčci budou zpívat před oknem tvého pokoje.\n\nA já ti budu psát další a další dopisy, ve kterých se ti budu snažit vyjádřit svou vděčnost za to, že jsi součástí mého života. Budu ti je psát tak dlouho, dokud mi vlasy nezešediví a dokud už nebudu mít sílu se ani pohnout. ❤️\n\nDobré ráno, ty, která jsi pro mě tím nejkrásnějším dobrem na světě. ❤️\n\nUvidím tě.\n\n{{COUNTDOWN}}",
+      "deliverySpeech": "Wait, Lenča! Before this royal envelope opens, Mohamed Azam in Southern Egypt entrusted me to deliver this message to you myself! He wants the Queen of Czechia to know how deeply he loves you."
+    }
+  ],
+  "photos": []
+}
+  </script>
+
+  <!-- ========================================================================= -->
+  <!-- CLASSIC ROMANTIC COVER OVERLAY (Auto-Flips in 8s OR When Cake Explodes!)  -->
+  <!-- ========================================================================= -->
+  <div id="romantic-cover-overlay" class="fixed inset-0 z-50 flex flex-col items-center justify-between p-4 sm:p-8 overflow-hidden select-none">
+
+    <!-- Particle Canvas for Floating Rose Petals & Cake Slice Explosion -->
+    <canvas id="cover-fx-canvas" class="absolute inset-0 w-full h-full pointer-events-none z-10"></canvas>
+
+    <!-- Classic Romantic Gold Filigree Frame (Never Obstructs Text or Cake!) -->
+    <div class="absolute inset-3 sm:inset-6 border border-amber-300/35 rounded-[32px] pointer-events-none flex flex-col justify-between p-4">
+      <div class="flex justify-between items-center text-amber-200/60 text-xs font-classic-editorial italic tracking-widest">
+        <span>✦ A Classic Love Dispatch</span>
+        <span>Southern Egypt • Czechia ✦</span>
+      </div>
+      <div class="flex justify-between items-center text-amber-200/50 text-xs font-classic-editorial italic tracking-widest">
+        <span>✦ Mohamed &amp; Lenča</span>
+        <span id="cover-countdown-label">Turning page in 8s...</span>
+      </div>
+    </div>
+
+    <!-- Top Right Subtle Skip / Flip Trigger (Keeps compatibility & convenience) -->
+    <div class="relative z-20 w-full max-w-4xl mx-auto flex justify-end pt-2 pr-2">
+      <button id="btn-skip-intro-video" type="button"
+        class="px-3.5 py-1 rounded-full bg-white/10 hover:bg-white/20 text-rose-100/90 border border-amber-200/30 text-xs font-classic-editorial tracking-wider transition">
+        Skip Intro ⏭️
+      </button>
+    </div>
+
+    <!-- Center Classic Romantic Calligraphy Card -->
+    <div class="relative z-20 max-w-2xl w-full mx-auto my-auto flex flex-col items-center text-center px-4">
+
+      <!-- Delicate Crown & Rose Divider -->
+      <div class="inline-flex items-center gap-3 text-amber-300/90 text-sm mb-3">
+        <span class="w-12 h-[1px] bg-gradient-to-r from-transparent to-amber-300/80"></span>
+        <span>👑 🌹 ❤️</span>
+        <span class="w-12 h-[1px] bg-gradient-to-l from-transparent to-amber-300/80"></span>
+      </div>
+
+      <!-- Classic Romantic Parchment/Velvet Plaque -->
+      <div class="w-full rounded-[30px] bg-gradient-to-b from-[#fffdf9]/95 via-[#fff7f5]/95 to-[#fceef2]/95 px-6 sm:px-12 py-7 sm:py-10 shadow-[0_25px_70px_rgba(0,0,0,0.65)] border-2 border-amber-300/80 relative">
+        <!-- Inner Gold Hairline -->
+        <div class="absolute inset-2.5 rounded-[22px] border border-rose-300/60 pointer-events-none"></div>
+
+        <p class="font-classic-editorial italic text-sm sm:text-base text-rose-800/85 tracking-widest uppercase mb-2">
+          A Royal Romantic Letter
+        </p>
+
+        <!-- Main English Romantic Sentence Requested by User -->
+        <h1 id="cover-main-sentence" class="font-script-romantic text-4xl sm:text-6xl text-rose-900 leading-snug drop-shadow-sm py-1">
+          This message comes from Southern Egypt to the Queen of Czechia
+        </h1>
+
+        <p class="mt-2 font-serif-romantic italic text-xs sm:text-sm text-stone-600">
+          With all my heart, from Mohamed (Azam) to Lenča ❤️
+        </p>
+      </div>
+
+      <!-- INTERACTIVE CAKE BUTTON SLIGHTLY BELOW THE SENTENCE (Never blocks text or card!) -->
+      <div class="mt-7 flex flex-col items-center">
+        <button id="btn-cake-explode" type="button"
+          class="cake-btn-anim group relative w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-b from-rose-100/25 to-amber-200/20 hover:from-rose-200/35 hover:to-amber-200/35 backdrop-blur-md border-2 border-amber-300/70 shadow-[0_0_35px_rgba(251,113,133,0.45)] flex items-center justify-center transition-all cursor-pointer"
+          title="Tap the Cake to explode it & turn the page!">
+          <!-- Hand-Crafted 4K Romantic Cake SVG -->
+          <svg id="cake-svg-icon" viewBox="0 0 120 120" class="w-20 h-20 sm:w-24 sm:h-24 drop-shadow-lg overflow-visible">
+            <!-- Golden Cake Plate -->
+            <ellipse cx="60" cy="102" rx="46" ry="8" fill="#fbbf24" stroke="#b45309" stroke-width="2"/>
+            <ellipse cx="60" cy="100" rx="38" ry="5" fill="#fef08a"/>
+
+            <!-- Bottom Sponge Tier (Rose Velvet) -->
+            <rect x="24" y="66" width="72" height="33" rx="6" fill="#fda4af" stroke="#e11d48" stroke-width="2"/>
+            <!-- Cream Filling Stripe -->
+            <line x1="25" y1="82" x2="95" y2="82" stroke="#fff1f2" stroke-width="4"/>
+            <!-- Vanilla Frosting Drips Bottom Tier -->
+            <path d="M24,68 Q33,78 42,68 Q51,79 60,68 Q69,79 78,68 Q87,78 96,68 L96,64 L24,64 Z" fill="#fffdf9" stroke="#f43f5e" stroke-width="1.5"/>
+
+            <!-- Top Tier (Vanilla & Strawberry Cream) -->
+            <rect x="34" y="40" width="52" height="26" rx="5" fill="#ffe4e6" stroke="#e11d48" stroke-width="2"/>
+            <path d="M34,42 Q43,51 51,42 Q60,52 69,42 Q77,51 86,42 L86,38 L34,38 Z" fill="#ffffff" stroke="#fb7185" stroke-width="1.5"/>
+
+            <!-- Cute Strawberries & Gold Pearls on Top -->
+            <circle cx="44" cy="37" r="4.5" fill="#e11d48"/>
+            <circle cx="60" cy="36" r="5" fill="#e11d48"/>
+            <circle cx="76" cy="37" r="4.5" fill="#e11d48"/>
+            <circle cx="36" cy="92" r="2.5" fill="#fbbf24"/>
+            <circle cx="60" cy="92" r="2.5" fill="#fbbf24"/>
+            <circle cx="84" cy="92" r="2.5" fill="#fbbf24"/>
+
+            <!-- Romantic Candle -->
+            <rect x="57" y="18" width="6" height="19" rx="2" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+            <line x1="57" y1="24" x2="63" y2="22" stroke="#f43f5e" stroke-width="1.5"/>
+            <line x1="57" y1="30" x2="63" y2="28" stroke="#f43f5e" stroke-width="1.5"/>
+
+            <!-- Flickering Candle Flame -->
+            <g class="candle-flame-anim">
+              <path d="M60,4 C55,11 56,17 60,18 C64,17 65,11 60,4 Z" fill="#fbbf24"/>
+              <path d="M60,8 C58,12 58,16 60,17 C62,16 62,12 60,8 Z" fill="#fef08a"/>
+            </g>
+          </svg>
+        </button>
+
+        <span class="mt-2.5 text-xs sm:text-sm font-classic-editorial italic text-amber-200 tracking-wide">
+          🎂 Tap the Cake to burst it &amp; turn the page (or wait <span id="cover-sec-num">8</span>s)
+        </span>
+
+        <!-- Hidden compatibility trigger button -->
+        <button id="btn-start-intro-video" type="button" class="sr-only">Play 10s Royal Welcome Video (With Pharaonic Music)</button>
+      </div>
+    </div>
+
+    <!-- Subtle 8-Second Progress Thread at Very Bottom of Cover -->
+    <div class="relative z-20 w-full max-w-md mx-auto pb-1">
+      <div class="w-full h-1.5 bg-white/15 rounded-full overflow-hidden">
+        <div id="cover-progress-bar" class="h-full bg-gradient-to-r from-amber-300 via-rose-400 to-amber-300 transition-all duration-100" style="width: 0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 4K NIGHT SKY, GLOWING MOON, PHARAONIC NILE + EUROPEAN HORIZON CANVAS      -->
+  <!-- ========================================================================= -->
+  <div id="ambient-bg" class="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
+    <canvas id="sky-fx-canvas" class="absolute inset-0 w-full h-full"></canvas>
+
+    <!-- Glowing Full Moon / Solar Disc of Ra -->
+    <div id="moon-element" class="moon-glow absolute left-1/2 -translate-x-1/2 top-[11%] sm:top-[10%] w-20 h-20 sm:w-24 sm:h-24 rounded-full transition-all duration-700"></div>
+
+    <!-- Subtle Golden Hieroglyphic Filigree Side Columns -->
+    <div class="hidden lg:flex fixed left-3 top-1/4 bottom-1/4 w-7 flex-col items-center justify-around text-amber-400/20 text-lg font-pharaonic select-none">
+      <span>☥</span><span>𓂀</span><span>𓆣</span><span>𓇳</span><span>𓅃</span><span>☥</span>
+    </div>
+    <div class="hidden lg:flex fixed right-3 top-1/4 bottom-1/4 w-7 flex-col items-center justify-around text-amber-400/20 text-lg font-pharaonic select-none">
+      <span>☥</span><span>𓅃</span><span>𓇳</span><span>𓆣</span><span>𓂀</span><span>☥</span>
+    </div>
+
+    <!-- Horizon: Southern Egypt Pyramids & Luxor Obelisk (Left) Meeting European Prague Spires (Right) -->
+    <svg class="absolute bottom-0 inset-x-0 w-full h-56 sm:h-72 object-cover" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path d="M0,320 L0,210 L110,125 L220,210 L310,150 L395,210 L450,210 L460,115 L470,100 L480,115 L490,210 L960,215 L1030,145 L1065,95 L1100,145 L1180,185 L1290,120 L1380,175 L1440,175 L1440,320 Z" fill="#0b152b" opacity="0.82"/>
+      <polygon points="110,125 88,142 132,142" fill="#fbbf24" opacity="0.45"/>
+      <polygon points="310,150 292,164 328,164" fill="#fbbf24" opacity="0.38"/>
+      <polygon points="470,100 462,115 478,115" fill="#fef08a" opacity="0.6"/>
+      <path d="M0,320 L0,165 L45,130 L90,165 L90,320 Z" fill="#070d1c"/>
+      <path d="M85,320 L85,185 L165,185 L165,320 Z" fill="#091124"/>
+      <path d="M160,320 L160,150 L210,110 L260,150 L260,320 Z" fill="#060c18"/>
+      <path d="M1180,320 L1180,145 L1230,105 L1280,145 L1280,320 Z" fill="#060c18"/>
+      <path d="M1275,320 L1275,170 L1355,170 L1355,320 Z" fill="#091124"/>
+      <path d="M1350,320 L1350,135 L1395,95 L1440,135 L1440,320 Z" fill="#070d1c"/>
+      <rect x="0" y="295" width="1440" height="25" fill="#050912"/>
+
+      <g fill="#fde047">
+        <rect x="25" y="175" width="13" height="18" rx="2" opacity="0.88"/>
+        <rect x="50" y="175" width="13" height="18" rx="2" opacity="0.72"/>
+        <rect x="108" y="200" width="15" height="17" rx="2" opacity="0.88"/>
+        <rect x="192" y="162" width="14" height="20" rx="2" opacity="0.9"/>
+        <rect x="215" y="162" width="14" height="20" rx="2" opacity="0.78"/>
+        <rect x="1210" y="160" width="15" height="22" rx="2" opacity="0.9"/>
+        <rect x="1234" y="160" width="15" height="22" rx="2" opacity="0.75"/>
+        <rect x="1298" y="192" width="15" height="18" rx="2" opacity="0.88"/>
+        <rect x="1376" y="150" width="14" height="20" rx="2" opacity="0.85"/>
+        <rect x="1400" y="150" width="14" height="20" rx="2" opacity="0.95"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- TOP HEADER & ORGANIZED ACTION BAR                                         -->
+  <!-- ========================================================================= -->
+  <header class="relative z-30 w-full max-w-5xl mx-auto px-3 sm:px-6 pt-2.5 pb-1 flex flex-col items-center">
+    <div class="w-full flex flex-wrap items-center justify-between gap-2 mb-1">
+      <!-- Left: Hurghada Countdown, Superman 5s Flight & Re-open Cover -->
+      <div class="flex flex-wrap items-center gap-1.5">
+        <button id="btn-hurghada-countdown" type="button"
+          class="group relative inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-slate-950 shadow-lg hover:scale-105 active:scale-95 transition-all border border-amber-200">
+          <span>✈️</span>
+          <span>Hurghada Countdown</span>
+          <span id="mini-countdown-badge" class="bg-slate-950/20 px-2 py-0.5 rounded-full text-[11px] font-mono font-bold">11d 23h</span>
+        </button>
+
+        <!-- NEW: 5-Second Superman Flight Play/Stop Toggle Button in Top Bar -->
+        <button id="btn-superman-fly" type="button"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-gradient-to-r from-red-600 via-rose-600 to-amber-500 hover:from-red-500 hover:to-amber-400 text-white shadow-md border border-amber-200/60 transition-all hover:scale-105 active:scale-95"
+          title="Toggle Habibi flying across the page like Superman for 5 seconds!">
+          <span id="superman-btn-icon">🦸‍♀️</span>
+          <span id="superman-btn-label">Fly 5s (Superman)</span>
+        </button>
+
+        <button id="btn-replay-intro-header" type="button"
+          class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-medium bg-amber-500/15 hover:bg-amber-500/30 backdrop-blur-md text-amber-200 border border-amber-400/40 transition"
+          title="Show the Romantic Cover & Cake again">
+          <span>🎂</span>
+          <span class="hidden md:inline">10s Royal Intro</span>
+        </button>
+      </div>
+
+      <!-- Right: Voice Mic, Sound, & Live Save/Edit Studio -->
+      <div class="flex flex-wrap items-center gap-1.5">
+        <button id="btn-voice-mic" type="button"
+          class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium bg-white/10 hover:bg-white/20 backdrop-blur-md text-amber-100 border border-amber-300/30 transition"
+          title="Talk to Habibi or say 'Open the message'">
+          <span id="mic-icon">🎙️</span>
+          <span id="mic-label" class="hidden sm:inline">Talk to Habibi</span>
+        </button>
+
+        <button id="btn-sound-toggle" type="button"
+          class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium bg-white/10 hover:bg-white/20 backdrop-blur-md text-amber-100 border border-amber-300/30 transition"
+          title="Toggle Sound & Natural Voice">
+          <span id="sound-icon">🔊</span>
+          <span id="sound-label" class="hidden sm:inline">Sound On</span>
+        </button>
+
+        <button id="btn-open-customizer" type="button"
+          class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-rose-700 to-rose-600 hover:from-rose-600 hover:to-rose-500 text-white shadow-md border border-amber-300/50 transition"
+          title="Edit message anytime, save & copy live link for Lenča">
+          <span>✏️</span>
+          <span>Edit &amp; Photos</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Royal Subtitle Header -->
+    <div class="text-center mt-0.5">
+      <div class="text-[10px] sm:text-xs font-pharaonic tracking-[0.22em] text-amber-300/90 uppercase">
+        ☥ This message comes from Southern Egypt to the Queen of Czechia ☥
+      </div>
+      <h1 class="font-serif-romantic text-lg sm:text-2xl font-semibold text-white tracking-wide drop-shadow-[0_2px_10px_rgba(251,191,36,0.3)]">
+        From <span id="header-sender-name" class="text-amber-300">Azam</span>, with love
+        <span class="sr-only"><span id="header-cat-name">Habibi</span> for <span id="header-recipient-name">Lenča</span></span>
+      </h1>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- MAIN STAGE: ENVELOPE, LETTER CARD, AND HURGHADA COUNTDOWN CARD            -->
+  <!-- ========================================================================= -->
+  <main class="relative z-20 flex-1 w-full max-w-3xl mx-auto px-3 sm:px-6 flex flex-col items-center justify-center my-auto pt-24 pb-3">
+
+    <!-- ===================================================================== -->
+    <!-- STAGE A: HURGHADA AIRPORT COUNTDOWN CARD                              -->
+    <!-- ===================================================================== -->
+    <section id="countdown-panel" class="hidden relative w-full max-w-xl mx-auto my-auto transition-all duration-500">
+      <div id="perch-anchor-countdown" class="w-full h-2"></div>
+
+      <div class="pharaonic-gold-border rounded-3xl">
+        <div class="stationery-card rounded-[21px] p-5 sm:p-6 relative overflow-hidden">
+          <div class="flex items-center justify-between gap-2 pb-2.5 mb-3 border-b border-amber-300/70">
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 text-amber-950 text-xs font-bold border border-amber-300">
+              <span>☥ ✈️ Hurghada Airport (HRG) • Egypt Local Time</span>
+            </div>
+            <button id="btn-close-countdown" type="button"
+              class="px-3 py-1 rounded-full bg-stone-200 hover:bg-stone-300 text-stone-800 text-xs font-bold transition">
+              Hide ✕
+            </button>
+          </div>
+
+          <div class="text-center">
+            <p class="text-xs font-pharaonic font-bold uppercase tracking-widest text-amber-700">
+              ⏳ Royal Red Sea Arrival Countdown
+            </p>
+            <h2 class="font-serif-romantic text-2xl sm:text-3xl font-bold text-stone-900 mt-1">
+              Waiting for Queen <span id="cd-recipient-name" class="text-rose-600">Lenča</span> in Hurghada! ❤️
+            </h2>
+            <p id="cd-target-label" class="text-xs sm:text-sm text-stone-600 mt-0.5 font-medium">
+              Arrival: November 2, 2026 • 9:00 AM (Egypt Time)
+            </p>
+          </div>
+
+          <div class="grid grid-cols-4 gap-2 sm:gap-3.5 my-4 text-center">
+            <div class="bg-gradient-to-b from-amber-50 to-orange-50 rounded-2xl p-2.5 sm:p-3 border border-amber-300 shadow-inner">
+              <div id="cd-days" class="text-2xl sm:text-4xl font-extrabold font-mono text-rose-700">11</div>
+              <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-900 mt-1">Days</div>
+            </div>
+            <div class="bg-gradient-to-b from-amber-50 to-orange-50 rounded-2xl p-2.5 sm:p-3 border border-amber-300 shadow-inner">
+              <div id="cd-hours" class="text-2xl sm:text-4xl font-extrabold font-mono text-rose-700">23</div>
+              <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-900 mt-1">Hours</div>
+            </div>
+            <div class="bg-gradient-to-b from-amber-50 to-orange-50 rounded-2xl p-2.5 sm:p-3 border border-amber-300 shadow-inner">
+              <div id="cd-minutes" class="text-2xl sm:text-4xl font-extrabold font-mono text-rose-700">07</div>
+              <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-900 mt-1">Minutes</div>
+            </div>
+            <div class="bg-gradient-to-b from-amber-50 to-orange-50 rounded-2xl p-2.5 sm:p-3 border border-amber-300 shadow-inner">
+              <div id="cd-seconds" class="text-2xl sm:text-4xl font-extrabold font-mono text-amber-600">40</div>
+              <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-900 mt-1">Seconds</div>
+            </div>
+          </div>
+
+          <div class="bg-amber-50/90 rounded-2xl p-3 border border-amber-300 text-center">
+            <p id="cd-habibi-quote" class="text-xs sm:text-sm font-semibold text-stone-900 leading-relaxed">
+              🐾 <strong>Habibi:</strong> "Yay! Look at my head and eyes swinging tick-tock like a pendulum! I'm waiting for you at Hurghada Airport, Lenča — don't forget to bring the chocolate with you! 🍫✈️😻"
+            </p>
+            <div class="mt-2.5 flex flex-wrap items-center justify-center gap-2">
+              <button id="btn-replay-airport-joy" type="button"
+                class="px-4 py-1.5 rounded-full bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold shadow transition">
+                Make Habibi Jump Again 🎉
+              </button>
+              <button id="btn-close-countdown-bottom" type="button"
+                class="px-4 py-1.5 rounded-full bg-amber-200 hover:bg-amber-300 text-amber-950 text-xs font-bold border border-amber-400 transition">
+                🐾 Back to Envelope / Letter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- STAGE B: SEALED ROYAL EGYPTIAN & EUROPEAN AIR MAIL ENVELOPE           -->
+    <!-- ===================================================================== -->
+    <section id="envelope-stage" class="relative w-full max-w-md mx-auto my-auto flex flex-col items-center text-center transition-all duration-500">
+      <div id="perch-anchor-envelope" class="w-full h-2"></div>
+
+      <div id="envelope-card-btn" role="button" tabindex="0"
+        class="airmail-border w-full max-w-[350px] sm:max-w-[390px] rounded-2xl cursor-pointer transition-transform duration-300 hover:scale-[1.015] relative">
+
+        <div class="bg-[#fcf9f0] rounded-xl h-52 sm:h-56 relative overflow-hidden flex flex-col justify-between p-4 border border-amber-300">
+
+          <div id="envelope-top-flap" class="envelope-flap absolute inset-x-0 top-0 h-32 z-20 pointer-events-none">
+            <svg viewBox="0 0 400 135" class="w-full h-full drop-shadow-md" preserveAspectRatio="none">
+              <polygon points="0,0 200,122 400,0" fill="#f5eedc" stroke="#d4af37" stroke-width="2.2"/>
+            </svg>
+          </div>
+
+          <svg class="absolute inset-0 w-full h-full pointer-events-none z-10" viewBox="0 0 400 220" preserveAspectRatio="none">
+            <line x1="0" y1="220" x2="155" y2="105" stroke="#dfd5be" stroke-width="1.8"/>
+            <line x1="400" y1="220" x2="245" y2="105" stroke="#dfd5be" stroke-width="1.8"/>
+            <polygon points="0,220 200,115 400,220" fill="#faf5e8" stroke="#d4af37" stroke-width="1.5"/>
+          </svg>
+
+          <div id="envelope-wax-seal" class="relative z-30 m-auto w-14 h-14 rounded-full bg-gradient-to-br from-red-600 via-rose-600 to-amber-600 shadow-lg border-2 border-amber-200 flex items-center justify-center transition-transform duration-300">
+            <svg viewBox="0 0 24 24" class="w-7 h-7 text-amber-100 fill-current -rotate-12">
+              <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+          </div>
+
+          <div class="relative z-20 mt-auto flex items-end justify-between w-full pt-2">
+            <div class="text-left">
+              <svg viewBox="0 0 120 26" class="w-24 h-5 text-red-500/75 stroke-current fill-none mb-0.5">
+                <path d="M2,6 Q12,1 22,6 T42,6 T62,6 T82,6" stroke-width="1.5"/>
+                <path d="M2,13 Q12,8 22,13 T42,13 T62,13 T82,13" stroke-width="1.5"/>
+                <path d="M2,20 Q12,15 22,20 T42,20 T62,20 T82,20" stroke-width="1.5"/>
+              </svg>
+              <div class="text-[9px] font-pharaonic tracking-wider uppercase text-stone-600 font-bold">
+                ☥ ROYAL MAIL • FOR <span id="seal-recipient">LENČA</span> • FROM <span id="seal-sender">AZAM</span>
+              </div>
+            </div>
+
+            <div class="w-12 h-14 bg-amber-50 border-2 border-dashed border-amber-500 rounded p-1 flex flex-col items-center justify-between shadow-sm">
+              <div class="w-full flex justify-between items-center text-[8px] text-amber-700 font-bold">
+                <span>☥</span><span>👑</span>
+              </div>
+              <div class="text-base leading-none">🐱</div>
+              <div class="text-[7px] font-pharaonic text-stone-700 font-bold uppercase">EGYPT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Habibi Intro Speech Progress Bar (Visible while Habibi speaks BEFORE envelope opens) -->
+      <div id="intro-speech-progress-box" class="hidden w-full max-w-[360px] mt-3 bg-slate-900/95 backdrop-blur-md border border-amber-400/60 rounded-2xl p-3 text-white shadow-xl">
+        <div class="flex items-center justify-between text-xs font-semibold text-amber-200 mb-1.5">
+          <span class="flex items-center gap-1.5">
+            <span class="inline-block w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+            <span><strong id="speaking-cat-name">Habibi</strong> is speaking Mohamed's intro...</span>
+          </span>
+          <span id="intro-speech-pct" class="font-mono text-[11px]">0%</span>
+        </div>
+        <div class="w-full h-2 bg-white/15 rounded-full overflow-hidden">
+          <div id="intro-speech-bar" class="h-full bg-gradient-to-r from-amber-400 via-yellow-300 to-rose-500 transition-all duration-150" style="width: 0%"></div>
+        </div>
+        <p class="text-[11px] text-amber-100/90 mt-1.5 italic">
+          Waiting for Habibi to finish her message before opening the royal letter ✨
+        </p>
+      </div>
+
+      <!-- "Tap to open" Buttons & Subtitle -->
+      <div class="mt-4 flex flex-col items-center">
+        <div class="flex flex-wrap items-center justify-center gap-2.5">
+          <button id="btn-tap-to-open-video" type="button"
+            class="btn-pulse-glow px-8 py-2.5 rounded-full bg-gradient-to-r from-amber-200 via-white to-amber-100 text-rose-700 hover:text-rose-800 font-pharaonic font-bold text-sm sm:text-base shadow-xl border border-amber-400 transition-all active:scale-95">
+            Tap to open
+          </button>
+          <button id="btn-open-letter-main" type="button"
+            class="px-5 py-2.5 rounded-full bg-rose-600/90 hover:bg-rose-600 text-white font-semibold text-xs sm:text-sm shadow-lg border border-amber-300/40 transition-all flex items-center gap-1.5">
+            <span>💌</span>
+            <span>Open the Message</span>
+          </button>
+        </div>
+
+        <p id="envelope-subtitle-status" class="mt-3 text-sm sm:text-base font-semibold text-amber-100 tracking-wide drop-shadow">
+          Royal Egyptian Cat <span id="env-cat-name" class="text-amber-300 font-bold">Habibi</span> brought a letter for <span id="env-recipient-name" class="text-white underline decoration-amber-400">Lenča</span>
+        </p>
+
+        <div class="mt-2 flex flex-wrap items-center justify-center gap-2">
+          <span class="text-xs font-bold text-amber-200 bg-white/10 px-3 py-1 rounded-full border border-amber-300/30">
+            👑 Tap Habibi 3x to Stand Up! • From <span id="env-sender-name">Azam</span>
+          </span>
+          <button id="btn-say-open-letter" type="button"
+            class="px-3 py-1 rounded-full bg-amber-500/25 hover:bg-amber-500/40 text-amber-100 text-xs font-semibold border border-amber-300/40 transition">
+            🗣️ Say "Open the Message"
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- STAGE C: OPEN ROYAL PHARAONIC-EUROPEAN STATIONERY CARD                -->
+    <!-- ===================================================================== -->
+    <section id="letter-stage" class="hidden relative w-full max-w-lg mx-auto my-auto transition-all duration-500">
+      <div id="perch-anchor-letter" class="w-full h-2"></div>
+
+      <div id="letter-safe-zone" class="pharaonic-gold-border selectable-text rounded-[28px] relative">
+        <div class="stationery-card rounded-[25px] p-3 sm:p-4">
+          <div class="stationery-inner-frame rounded-[19px] px-4 sm:px-6 py-4 sm:py-5 flex flex-col items-center text-center">
+
+            <!-- ORGANIZED AUTO-READER CONTROL BAR (Play / Pause / Stop + Fold Envelope) -->
+            <div class="w-full flex flex-wrap items-center justify-between gap-1.5 pb-2.5 mb-2 border-b border-amber-300/60">
+              <div class="inline-flex items-center gap-1 bg-amber-100/90 border border-amber-300 rounded-full p-1 shadow-sm">
+                <button id="btn-read-aloud-letter" type="button"
+                  class="px-3 py-1 rounded-full bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition flex items-center gap-1 shadow-sm"
+                  title="Play or Pause Automatic Letter Reader">
+                  <span id="reader-play-icon">🔊</span>
+                  <span id="reader-play-label">Read Czech</span>
+                </button>
+                <button id="btn-stop-reader" type="button"
+                  class="hidden px-2.5 py-1 rounded-full bg-stone-200 hover:bg-stone-300 text-stone-800 text-xs font-bold transition"
+                  title="Stop Automatic Reader">
+                  ⏹️ Stop
+                </button>
+                <button id="btn-toggle-autoread" type="button"
+                  class="px-2.5 py-1 rounded-full text-[11px] font-semibold text-amber-950 hover:bg-amber-200/80 transition"
+                  title="Toggle automatic reading when letter opens">
+                  Auto: <span id="autoread-state-text">Off</span>
+                </button>
+              </div>
+
+              <button id="btn-fold-letter" type="button"
+                class="px-3 py-1 rounded-full bg-stone-200/90 hover:bg-stone-300 text-stone-800 text-xs font-bold transition">
+                Fold Envelope
+              </button>
+            </div>
+
+            <div class="text-[10px] text-amber-800 font-pharaonic font-bold tracking-[0.2em] uppercase">
+              ☥ <span id="card-small-header-display">ROYAL EGYPTIAN DISPATCH</span> ☥
+            </div>
+
+            <div class="my-1.5 flex flex-col items-center">
+              <div class="mt-1 inline-flex items-center gap-1.5 px-4 py-1 rounded-full border border-amber-400 bg-gradient-to-r from-amber-50 via-white to-amber-50 text-xs sm:text-sm font-serif-romantic font-bold text-stone-900 shadow-sm">
+                <span>👑</span>
+                <span id="letter-title-display">Dear My Love, Queen Lenča ❤️</span>
+              </div>
+            </div>
+
+            <!-- Scrollable Czech Romantic Message Body -->
+            <div id="letter-body-container"
+              class="letter-scroll w-full max-h-[38vh] sm:max-h-[42vh] overflow-y-auto px-2 sm:px-4 my-2.5 space-y-3 text-sm sm:text-[15px] leading-relaxed text-stone-800 font-serif-romantic text-center">
+              <!-- Populated dynamically -->
+            </div>
+
+            <div id="letter-signature-display" class="mt-1 font-serif-romantic italic font-bold text-sm sm:text-base text-rose-700">
+              with eternal love, <span id="letter-sender-credit">Azam</span> ❤️
+            </div>
+
+            <div id="photo-gallery-section" class="w-full mt-3 pt-3 border-t border-amber-200/80 hidden">
+              <div id="photo-gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5"></div>
+            </div>
+
+            <div class="mt-3 pt-2 border-t border-amber-200/70 w-full flex items-center justify-between text-[10px] text-stone-500 font-mono">
+              <span>☥ Delivered by Royal Cat <span id="letter-cat-credit" class="font-bold text-amber-800">Habibi</span></span>
+              <button id="btn-add-photo-quick" type="button" class="text-rose-600 hover:underline font-sans font-semibold">
+                + Add / Change Photos
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- HABIBI: AUTHENTIC EGYPTIAN MAU CAT WITH PHARAONIC CROWN & EGYPTIAN FLAG   -->
+  <!-- (Face & Crown 100% Unobstructed! Speech is Docked in Safe Banner Below!)  -->
+  <!-- ========================================================================= -->
+  <div id="habibi-container"
+    class="fixed z-30 w-28 h-28 sm:w-32 sm:h-32 cursor-grab active:cursor-grabbing select-none touch-none transition-[top,left] duration-75"
+    style="left: 50%; top: 220px; transform: translateX(-50%);">
+
+    <!-- Floating Reaction Emojis placed softly to the side so they NEVER block Habibi's face/crown -->
+    <div id="habibi-fx-layer" class="absolute -right-8 top-2 flex flex-col items-center pointer-events-none"></div>
+
+    <!-- 3-Tap Badge placed below Habibi's paws so it NEVER covers her face or crown! -->
+    <div id="triple-tap-badge" class="hidden absolute -bottom-6 left-1/2 -translate-x-1/2 bg-amber-400 text-slate-950 text-[10px] font-pharaonic font-extrabold px-2.5 py-0.5 rounded-full shadow-lg whitespace-nowrap pointer-events-none border border-white">
+      👑 Tap 1/3
+    </div>
+    <span id="sprite-cat-name" class="sr-only">Habibi</span>
+
+    <!-- 4K Authentic Egyptian Cat SVG with Royal Pharaonic Crown & Egyptian Flag Cape -->
+    <svg id="habibi-svg" viewBox="0 0 200 205" class="w-full h-full drop-shadow-[0_12px_20px_rgba(0,0,0,0.55)] overflow-visible">
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fda4af"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+        <linearGradient id="gingerFur" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#f59e0b"/>
+          <stop offset="55%" stop-color="#d97706"/>
+          <stop offset="100%" stop-color="#b45309"/>
+        </linearGradient>
+        <linearGradient id="creamFur" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#fffbeb"/>
+          <stop offset="100%" stop-color="#fde68a"/>
+        </linearGradient>
+        <linearGradient id="pharaohGoldGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#fef08a"/>
+          <stop offset="45%" stop-color="#fbbf24"/>
+          <stop offset="100%" stop-color="#b45309"/>
+        </linearGradient>
+        <radialGradient id="eyeGloss" cx="35%" cy="30%" r="65%">
+          <stop offset="0%" stop-color="#15803d"/>
+          <stop offset="55%" stop-color="#064e3b"/>
+          <stop offset="100%" stop-color="#052e16"/>
+        </radialGradient>
+      </defs>
+
+      <!-- Soft Shadow under Paws -->
+      <ellipse id="cat-shadow" cx="100" cy="184" rx="46" ry="8" fill="rgba(0, 0, 0, 0.35)"/>
+
+      <g id="cat-rig" class="cat-body-idle">
+        <!-- Authentic Egyptian Mau Spotted/Banded Tail -->
+        <g id="cat-tail-group" class="cat-tail">
+          <path d="M58 150 C24 142, 12 104, 26 84 C36 72, 48 86, 38 104 C30 118, 44 134, 62 142"
+            fill="url(#gingerFur)" stroke="#78350f" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M24 96 Q32 94 36 100" stroke="#451a03" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M29 110 Q37 108 41 114" stroke="#451a03" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </g>
+
+        <!-- ROYAL EGYPTIAN FLAG & SUPERMAN CAPE (علم مصر) Draped Behind Body -->
+        <g id="cat-egypt-flag-cape">
+          <path d="M62 112 L34 166 L166 166 L138 112 Z" fill="#ce1126" stroke="#fbbf24" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M67 128 L44 166 L156 166 L133 128 Z" fill="#ffffff"/>
+          <path d="M72 146 L52 166 L148 166 L128 146 Z" fill="#09090b"/>
+          <line x1="36" y1="166" x2="164" y2="166" stroke="#fbbf24" stroke-width="3" stroke-dasharray="4 3"/>
+        </g>
+
+        <!-- Egyptian Cat Body / Torso -->
+        <ellipse cx="100" cy="142" rx="39" ry="33" fill="url(#gingerFur)" stroke="#78350f" stroke-width="2.6"/>
+        <circle cx="72" cy="138" r="2.8" fill="#78350f" opacity="0.65"/>
+        <circle cx="68" cy="148" r="2.5" fill="#78350f" opacity="0.65"/>
+        <circle cx="128" cy="138" r="2.8" fill="#78350f" opacity="0.65"/>
+        <circle cx="132" cy="148" r="2.5" fill="#78350f" opacity="0.65"/>
+
+        <!-- Royal Egyptian Flag Chest Shield & Pharaonic Wesekh Collar -->
+        <ellipse cx="100" cy="144" rx="24" ry="22" fill="url(#creamFur)"/>
+        <g id="chest-egypt-flag">
+          <rect x="82" y="125" width="36" height="8" rx="2" fill="#ce1126"/>
+          <rect x="82" y="133" width="36" height="8" fill="#ffffff"/>
+          <rect x="82" y="141" width="36" height="8" rx="2" fill="#111827"/>
+          <rect x="82" y="125" width="36" height="24" rx="3" fill="none" stroke="#fbbf24" stroke-width="1.8"/>
+          <path d="M96 138 L100 133 L104 138 L102 138 L102 140 L98 140 L98 138 Z" fill="#d97706"/>
+          <circle cx="100" cy="134" r="1.4" fill="#b45309"/>
+        </g>
+
+        <!-- Pharaonic Golden Wesekh Necklace Collar -->
+        <path d="M68 112 Q100 128 132 112" stroke="url(#pharaohGoldGrad)" stroke-width="8" fill="none" stroke-linecap="round"/>
+        <path d="M71 112 Q100 126 129 112" stroke="#06b6d4" stroke-width="3.5" stroke-dasharray="5 4" fill="none" stroke-linecap="round"/>
+        <circle cx="100" cy="121" r="5.5" fill="url(#pharaohGoldGrad)" stroke="#78350f" stroke-width="1.4"/>
+        <text x="100" y="124" text-anchor="middle" font-size="8" fill="#78350f" font-weight="bold">☥</text>
+
+        <!-- Back Paws -->
+        <g id="paw-back-l" class="paw-walk-b">
+          <ellipse cx="72" cy="172" rx="12.5" ry="8.5" fill="url(#creamFur)" stroke="#78350f" stroke-width="2.4"/>
+        </g>
+        <g id="paw-back-r" class="paw-walk-a">
+          <ellipse cx="128" cy="172" rx="12.5" ry="8.5" fill="url(#creamFur)" stroke="#78350f" stroke-width="2.4"/>
+        </g>
+
+        <!-- Front Paws -->
+        <g id="paw-front-l" class="paw-walk-a">
+          <ellipse cx="83" cy="168" rx="10" ry="11.5" fill="url(#creamFur)" stroke="#78350f" stroke-width="2.4"/>
+          <circle cx="79" cy="172" r="1.8" fill="#d97706"/>
+          <circle cx="83" cy="173" r="1.8" fill="#d97706"/>
+          <circle cx="87" cy="172" r="1.8" fill="#d97706"/>
+        </g>
+        <g id="paw-front-r" class="paw-walk-b">
+          <ellipse cx="117" cy="168" rx="10" ry="11.5" fill="url(#creamFur)" stroke="#78350f" stroke-width="2.4"/>
+          <circle cx="113" cy="172" r="1.8" fill="#d97706"/>
+          <circle cx="117" cy="173" r="1.8" fill="#d97706"/>
+          <circle cx="121" cy="172" r="1.8" fill="#d97706"/>
+        </g>
+
+        <!-- Mini Air Mail Envelope Held by Habibi During Intro Speech -->
+        <g id="cat-held-envelope" class="hidden">
+          <rect x="74" y="122" width="52" height="34" rx="5" fill="#fffbeb" stroke="#d4af37" stroke-width="2.5"/>
+          <polyline points="74,122 100,140 126,122" fill="none" stroke="#ce1126" stroke-width="2"/>
+          <circle cx="100" cy="138" r="5" fill="#ce1126"/>
+        </g>
+
+        <!-- CAT HEAD GROUP + ROYAL PHARAONIC CROWN -->
+        <g id="cat-head">
+          <g class="cat-ear-l">
+            <polygon points="55,72 45,28 86,52" fill="url(#gingerFur)" stroke="#78350f" stroke-width="2.6" stroke-linejoin="round"/>
+            <polygon points="58,66 51,37 79,53" fill="#fda4af"/>
+            <circle cx="50" cy="58" r="3" fill="#fbbf24" stroke="#78350f" stroke-width="1"/>
+          </g>
+          <g class="cat-ear-r">
+            <polygon points="145,72 155,28 114,52" fill="url(#gingerFur)" stroke="#78350f" stroke-width="2.6" stroke-linejoin="round"/>
+            <polygon points="142,66 149,37 121,53" fill="#fda4af"/>
+            <circle cx="150" cy="58" r="3" fill="#fbbf24" stroke="#78350f" stroke-width="1"/>
+          </g>
+
+          <ellipse cx="100" cy="80" rx="48" ry="41" fill="url(#gingerFur)" stroke="#78350f" stroke-width="2.6"/>
+          <ellipse cx="100" cy="92" rx="28" ry="19" fill="url(#creamFur)"/>
+
+          <!-- ROYAL PHARAONIC CROWN ON HABIBI'S HEAD -->
+          <g id="cat-pharaonic-crown">
+            <path d="M58 55 Q100 65 142 55 L136 43 Q100 51 64 43 Z" fill="url(#pharaohGoldGrad)" stroke="#78350f" stroke-width="2"/>
+            <circle cx="76" cy="51" r="3" fill="#06b6d4" stroke="#fff" stroke-width="0.8"/>
+            <circle cx="88" cy="53" r="3" fill="#1d4ed8" stroke="#fff" stroke-width="0.8"/>
+            <circle cx="112" cy="53" r="3" fill="#1d4ed8" stroke="#fff" stroke-width="0.8"/>
+            <circle cx="124" cy="51" r="3" fill="#06b6d4" stroke="#fff" stroke-width="0.8"/>
+            <path d="M74 44 L80 18 L100 10 L120 18 L126 44 Z" fill="url(#pharaohGoldGrad)" stroke="#78350f" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M84 43 L88 20 M100 45 L100 12 M116 43 L112 20" stroke="#1e3a8a" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="100" cy="30" r="6.5" fill="#ce1126" stroke="#fef08a" stroke-width="1.8"/>
+            <path d="M95 32 C92 22, 108 22, 105 32 C103 38, 97 38, 100 46" stroke="#fef08a" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+            <circle cx="100" cy="26" r="2.2" fill="#fef08a"/>
+          </g>
+
+          <path d="M62 74 L51 70 M138 74 L149 70" stroke="#1c1917" stroke-width="2.6" stroke-linecap="round"/>
+          <ellipse id="cheek-l" cx="64" cy="89" rx="8" ry="4.8" fill="#fb7185" opacity="0.55"/>
+          <ellipse id="cheek-r" cx="136" cy="89" rx="8" ry="4.8" fill="#fb7185" opacity="0.55"/>
+
+          <g stroke="#fff7ed" stroke-width="2" stroke-linecap="round" opacity="0.9">
+            <line x1="50" y1="84" x2="26" y2="80"/>
+            <line x1="50" y1="90" x2="24" y2="90"/>
+            <line x1="52" y1="96" x2="28" y2="100"/>
+            <line x1="150" y1="84" x2="174" y2="80"/>
+            <line x1="150" y1="90" x2="176" y2="90"/>
+            <line x1="148" y1="96" x2="172" y2="100"/>
+          </g>
+
+          <g id="eyes-open">
+            <ellipse cx="77" cy="76" rx="12" ry="13" fill="#ffffff" stroke="#1c1917" stroke-width="1.5"/>
+            <ellipse cx="123" cy="76" rx="12" ry="13" fill="#ffffff" stroke="#1c1917" stroke-width="1.5"/>
+
+            <g id="cat-pupils-group">
+              <ellipse cx="77" cy="76" rx="10" ry="11.5" fill="url(#eyeGloss)"/>
+              <ellipse cx="77" cy="76" rx="4.5" ry="9" fill="#09090b"/>
+              <circle cx="73" cy="71" r="4" fill="#ffffff"/>
+              <circle cx="81" cy="81" r="1.8" fill="#ffffff"/>
+
+              <ellipse cx="123" cy="76" rx="10" ry="11.5" fill="url(#eyeGloss)"/>
+              <ellipse cx="123" cy="76" rx="4.5" ry="9" fill="#09090b"/>
+              <circle cx="119" cy="71" r="4" fill="#ffffff"/>
+              <circle cx="127" cy="81" r="1.8" fill="#ffffff"/>
+            </g>
+          </g>
+
+          <g id="eyes-happy" class="hidden" stroke="#1c1917" stroke-width="4" fill="none" stroke-linecap="round">
+            <path d="M66 77 Q77 63 88 77"/>
+            <path d="M112 77 Q123 63 134 77"/>
+          </g>
+
+          <g id="eyes-sleep" class="hidden" stroke="#1c1917" stroke-width="3.5" fill="none" stroke-linecap="round">
+            <path d="M67 77 Q77 86 87 77"/>
+            <path d="M113 77 Q123 86 133 77"/>
+          </g>
+
+          <polygon points="96,85 104,85 100,90" fill="#e11d48"/>
+          <path id="mouth-normal" d="M92 93 Q96 98 100 93 Q104 98 108 93" stroke="#1c1917" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path id="mouth-open" class="hidden" d="M91 92 Q100 106 109 92 Z" fill="#e11d48" stroke="#1c1917" stroke-width="2.2"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- BOTTOM PLAYGROUND DOCK, NON-INTRUSIVE SPEECH BANNER & SIDE CAT TOY        -->
+  <!-- ========================================================================= -->
+  <footer id="habibi-playground" class="relative z-30 w-full max-w-4xl mx-auto px-3 sm:px-6 pb-3 pt-1 select-none">
+
+    <!-- Cozy Cat Spot on Left Side -->
+    <div id="cat-bed-zone" role="button" tabindex="0"
+      class="fixed left-3 sm:left-6 bottom-24 z-30 flex flex-col items-center cursor-pointer group"
+      title="Tap to invite Habibi to her royal Pharaonic cushion!">
+      <div class="text-[10px] font-bold text-amber-200 bg-slate-900/90 px-2.5 py-0.5 rounded-full mb-1 border border-amber-400/50 shadow-lg group-hover:scale-105 transition">
+        🛋️ Royal Cushion
+      </div>
+      <svg viewBox="0 0 100 36" class="w-16 h-6 drop-shadow">
+        <ellipse cx="50" cy="22" rx="44" ry="12" fill="#b45309" stroke="#fbbf24" stroke-width="2.2"/>
+        <ellipse cx="50" cy="19" rx="34" ry="7" fill="#fef08a"/>
+      </svg>
+    </div>
+
+    <!-- Interactive Side Cat Toy (Right Side of Screen) -->
+    <div id="cat-toy-zone" role="button" tabindex="0"
+      class="fixed right-3 sm:right-6 bottom-24 z-30 flex flex-col items-center cursor-pointer group"
+      title="Tap the Cat Toy so Habibi runs over to play with it!">
+      <div class="text-[10px] font-bold text-slate-950 bg-amber-400 px-2.5 py-0.5 rounded-full mb-1 border border-white shadow-lg group-hover:scale-105 transition">
+        🧶 Cat Toy
+      </div>
+      <div id="cat-toy-sprite" class="w-14 h-14 flex items-center justify-center transition-transform bg-white/10 backdrop-blur-sm rounded-full p-1 border border-amber-300/40 shadow-xl">
+        <svg viewBox="0 0 80 80" class="w-full h-full drop-shadow">
+          <path d="M46 18 C58 4, 72 8, 66 24 C60 32, 50 28, 46 18 Z" fill="#f43f5e"/>
+          <path d="M42 20 C48 6, 60 4, 56 18" stroke="#fbbf24" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <circle cx="48" cy="24" r="5" fill="#fbbf24" stroke="#b45309" stroke-width="1.5"/>
+          <circle cx="36" cy="48" r="20" fill="#ec4899" stroke="#9d174d" stroke-width="2"/>
+          <path d="M22 40 C30 34, 44 36, 52 44" stroke="#fbcfe8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M20 48 C32 42, 42 46, 54 52" stroke="#f9a8d4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M28 31 C24 44, 30 56, 38 66" stroke="#fbcfe8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M52 58 Q65 66 72 58 T76 68" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- NON-INTRUSIVE DOCKED SPEECH WHISPER BAR (Never covers Habibi's face, crown, moon, or letter!) -->
+    <div id="habibi-speech-bubble"
+      class="w-full max-w-2xl mx-auto mb-2 bg-[#0b1528]/90 backdrop-blur-md text-amber-50 px-4 py-2 rounded-2xl shadow-xl border border-amber-400/45 text-xs sm:text-sm font-medium leading-snug flex items-center justify-between gap-2 transition-all duration-300">
+      <div class="flex items-center gap-2">
+        <span class="text-base shrink-0">🐾</span>
+        <p id="habibi-speech-text">Meow! Greetings Queen Lenča! I'm Habibi 👑🇪🇬 Tap me 3x to stand, press 'Fly 5s' to see me fly like Superman, or click 'Tap to open'!</p>
+      </div>
+      <button id="btn-dismiss-speech" type="button"
+        class="text-amber-300/70 hover:text-amber-200 text-xs font-bold px-1.5 py-0.5 rounded"
+        title="Minimize speech bar">
+        ✕
+      </button>
+    </div>
+
+    <!-- Bottom Interactive Dock -->
+    <div id="playground-track" class="w-full rounded-2xl bg-[#0b1528]/90 backdrop-blur-md border border-amber-400/35 px-3.5 py-2.5 shadow-2xl flex flex-wrap items-center justify-between gap-2">
+      <!-- Left: Habibi Live Status -->
+      <div class="flex items-center gap-2.5">
+        <div id="cat-mood-emoji" class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-rose-600 flex items-center justify-center text-lg shadow border border-amber-200">
+          👑
+        </div>
+        <div>
+          <div class="text-xs sm:text-sm font-semibold text-white flex items-center gap-1.5">
+            <span><strong id="stage-cat-name" class="text-amber-300">Habibi</strong>: <span id="cat-state-label" class="text-amber-100">Royal Egyptian Guardian</span></span>
+            <span id="mic-meter-pill" class="hidden items-center gap-0.5 pl-1.5 border-l border-white/20 text-[10px] text-emerald-300">
+              <span>🎤</span>
+              <span id="mic-bar-1" class="w-1 h-2 bg-emerald-400 rounded-full"></span>
+              <span id="mic-bar-2" class="w-1 h-3 bg-emerald-400 rounded-full"></span>
+              <span id="mic-bar-3" class="w-1 h-2 bg-emerald-400 rounded-full"></span>
+            </span>
+          </div>
+          <div id="direction-indicator" class="text-[11px] text-amber-200/80">
+            👑 Tap Habibi 3x to stand • 🦸‍♀️ Click 'Fly 5s' for Superman flight!
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Habibi Action & Mood Controls -->
+      <div class="flex flex-wrap items-center gap-1.5">
+        <button id="btn-stand-toggle-dock" type="button"
+          class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-400/25 hover:bg-amber-400/40 text-amber-200 border border-amber-400/60 transition"
+          title="Or tap Habibi 3 times directly!">
+          👑 Stand / Normal (3x Tap)
+        </button>
+        <button id="btn-superman-dock" type="button"
+          class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-rose-500/30 hover:bg-rose-500/50 text-rose-100 border border-rose-400/60 transition"
+          title="Toggle 5-Second Superman Flight!">
+          🦸‍♀️ Fly 5s
+        </button>
+        <button type="button" data-cat-action="perch" class="cat-action-btn px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+          💌 Perch on Top
+        </button>
+        <button type="button" data-cat-action="walk" class="cat-action-btn px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+          🐾 Walk
+        </button>
+        <button type="button" data-cat-action="play" class="cat-action-btn px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+          🧶 Play
+        </button>
+        <button type="button" data-cat-action="smile" class="cat-action-btn px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+          😸 Smile
+        </button>
+        <button type="button" data-cat-action="laugh" class="cat-action-btn px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+          😹 Laugh
+        </button>
+        <button type="button" data-cat-action="sleep" class="cat-action-btn px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white/10 hover:bg-white/20 text-white border border-white/15 transition">
+          😴 Sleep
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- LIVE SAVE, EDIT & REUSABLE MULTI-MESSAGE STUDIO MODAL                     -->
+  <!-- ========================================================================= -->
+  <div id="customizer-modal" class="fixed inset-0 z-50 hidden bg-black/75 backdrop-blur-md flex items-center justify-center p-2 sm:p-5 selectable-text">
+    <div class="bg-white text-stone-800 rounded-3xl w-full max-w-3xl max-h-[92vh] flex flex-col shadow-2xl border-2 border-amber-400 overflow-hidden">
+
+      <div class="px-5 py-4 bg-gradient-to-r from-slate-900 via-amber-900 to-rose-900 text-white flex items-center justify-between">
+        <div>
+          <h3 class="text-base sm:text-lg font-bold flex items-center gap-2">
+            <span>☥ Live Message Editor &amp; Reusable Link Studio</span>
+          </h3>
+          <p class="text-xs text-amber-200">
+            Update the letter anytime — even after publishing on GitHub! Copy a live updated link for Lenča or download <code class="bg-white/20 px-1 rounded">index.html</code>.
+          </p>
+        </div>
+        <button id="btn-close-customizer" type="button" class="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center font-bold">
+          ✕
+        </button>
+      </div>
+
+      <div class="p-4 sm:p-6 overflow-y-auto space-y-4 text-sm">
+
+        <div class="p-3.5 rounded-2xl bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-900">
+              🔗 Live Shareable Link (Send New Messages Anytime After Publishing!)
+            </span>
+            <span class="text-[11px] font-semibold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">
+              GitHub Pages Ready ✓
+            </span>
+          </div>
+          <p class="text-xs text-emerald-800 mb-2.5">
+            Whenever you want to write a new message for Lenča after publishing your site, edit the text below and click <strong>"Save &amp; Copy Live Link for Lenča"</strong>.
+          </p>
+          <div class="flex flex-wrap items-center gap-2">
+            <input id="inp-live-share-url" type="text" readonly
+              class="flex-1 min-w-[200px] px-3 py-1.5 rounded-xl bg-white border border-emerald-300 text-xs font-mono text-stone-700"
+              value=""/>
+            <button id="btn-copy-live-link" type="button"
+              class="px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow transition">
+              📋 Save &amp; Copy Live Link for Lenča
+            </button>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-2xl bg-amber-50/80 border border-amber-200">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div>
+              <h4 class="text-xs font-bold uppercase text-amber-950">📚 Saved Letters Archive (Reusable Anytime)</h4>
+              <p class="text-[11px] text-amber-800">Save your current letter as a preset or switch between different messages for Lenča.</p>
+            </div>
+            <button id="btn-save-as-template" type="button"
+              class="px-3 py-1 rounded-full bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-sm transition">
+              + Save Current Letter to Archive
+            </button>
+          </div>
+          <div id="templates-list-container" class="flex flex-wrap gap-1.5"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-recipient">Recipient Name</label>
+            <input id="inp-recipient" type="text" class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:ring-2 focus:ring-rose-500" value="Lenča"/>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-sender">Sender Name</label>
+            <input id="inp-sender" type="text" class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:ring-2 focus:ring-rose-500" value="Azam"/>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-cat">Cat Name</label>
+            <input id="inp-cat" type="text" class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:ring-2 focus:ring-rose-500" value="Habibi"/>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-letter-title">Card Title Badge</label>
+            <input id="inp-letter-title" type="text" class="w-full px-3 py-2 rounded-xl border border-stone-300" value="Dear My Love, Queen Lenča ❤️"/>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-arrival-iso">Hurghada Arrival (Egypt Time ISO)</label>
+            <input id="inp-arrival-iso" type="text" class="w-full px-3 py-2 rounded-xl border border-stone-300 font-mono text-xs" value="2026-11-02T09:00:00+02:00"/>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-letter-body">Main Letter Content (Czech) <span class="normal-case font-normal text-rose-600">— write {{COUNTDOWN}} on its own line where the live countdown should appear</span></label>
+          <textarea id="inp-letter-body" rows="7" class="w-full px-3 py-2 rounded-xl border border-stone-300 font-serif-romantic leading-relaxed"></textarea>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-delivery-speech">
+              1️⃣ Habibi's Pre-Letter Intro Speech
+            </label>
+            <textarea id="inp-delivery-speech" rows="3" class="w-full px-3 py-2 rounded-xl border border-stone-300 text-xs"></textarea>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-700 mb-1" for="inp-countdown-speech">
+              2️⃣ Habibi's Hurghada Airport &amp; Chocolate Speech
+            </label>
+            <textarea id="inp-countdown-speech" rows="3" class="w-full px-3 py-2 rounded-xl border border-stone-300 text-xs"></textarea>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 space-y-3">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h4 class="text-xs font-bold uppercase text-rose-950">🎙️ Natural Voice Engine &amp; Custom Voice Recorder</h4>
+              <p class="text-[11px] text-rose-800">Choose the most natural human voice on your device, or record a real voice clip for Habibi!</p>
+            </div>
+            <button id="btn-test-natural-voice" type="button"
+              class="px-3 py-1 rounded-full bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition">
+              🔊 Test Habibi's Voice
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 items-center">
+            <div>
+              <label class="block text-[11px] font-bold text-rose-900 mb-1" for="sel-natural-voice">Select Natural Voice</label>
+              <select id="sel-natural-voice" class="w-full px-2.5 py-1.5 rounded-xl border border-rose-200 bg-white text-xs"></select>
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-rose-900 mb-1" for="inp-voice-pitch">Warmth / Pitch (<span id="lbl-pitch">1.05</span>)</label>
+              <input id="inp-voice-pitch" type="range" min="0.85" max="1.3" step="0.05" value="1.05" class="w-full"/>
+            </div>
+            <div>
+              <label class="block text-[11px] font-bold text-rose-900 mb-1" for="inp-voice-rate">Natural Speed (<span id="lbl-rate">0.94</span>)</label>
+              <input id="inp-voice-rate" type="range" min="0.8" max="1.15" step="0.02" value="0.94" class="w-full"/>
+            </div>
+          </div>
+
+          <div class="pt-2 border-t border-rose-200/70 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <span class="text-rose-900 font-medium">Record or upload real audio for Habibi's intro:</span>
+            <div class="flex items-center gap-1.5">
+              <button id="btn-record-custom-voice" type="button" class="px-3 py-1 rounded-full bg-white hover:bg-rose-100 text-rose-800 border border-rose-300 font-bold">
+                ⏺️ Record Voice
+              </button>
+              <button id="btn-clear-custom-voice" type="button" class="px-2.5 py-1 rounded-full bg-stone-200 hover:bg-stone-300 text-stone-700 font-semibold">
+                Reset to Natural AI Voice
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-2xl bg-stone-50 border border-stone-200">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div>
+              <h4 class="font-bold text-stone-900 text-xs uppercase">📸 Add Photos Inside the Letter Card</h4>
+              <p class="text-[11px] text-stone-600">Photos are embedded directly inside the page.</p>
+            </div>
+            <label class="px-3 py-1.5 rounded-full bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold cursor-pointer shadow-sm transition">
+              <span>+ Upload Photo</span>
+              <input id="inp-photo-upload" type="file" accept="image/*" multiple class="hidden"/>
+            </label>
+          </div>
+          <div id="customizer-photo-list" class="space-y-2 max-h-36 overflow-y-auto"></div>
+        </div>
+      </div>
+
+      <div class="px-5 py-2 bg-stone-50 border-t border-stone-200 flex items-center gap-2 text-xs text-stone-700">
+        <input id="inp-hide-edit-export" type="checkbox" class="w-4 h-4 text-rose-600 rounded border-stone-300"/>
+        <label for="inp-hide-edit-export">Hide Edit button in downloaded HTML file (you can still edit anytime via Live Link!)</label>
+      </div>
+
+      <div class="px-5 py-3.5 bg-stone-100 border-t border-stone-200 flex flex-wrap items-center justify-between gap-2">
+        <button id="btn-save-preview" type="button"
+          class="px-4 py-2 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs sm:text-sm shadow transition">
+          ✓ Apply Changes to Page
+        </button>
+        <div class="flex flex-wrap items-center gap-2">
+          <button id="btn-export-html" type="button"
+            class="px-4 py-2 rounded-full bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm shadow transition flex items-center gap-1.5">
+            <span>💾</span>
+            <span>Download Updated index.html</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-msg" class="fixed top-16 left-1/2 -translate-x-1/2 z-50 hidden bg-emerald-900 text-white text-xs sm:text-sm font-semibold px-4 py-2.5 rounded-full shadow-2xl border border-emerald-400">
+    Saved!
+  </div>
+
+  <script>
+    (function () {
+      // =======================================================================
+      // 1. STATE LOADING: URL HASH (`#gift=...`) + LOCALSTORAGE + DEFAULT JSON
+      // =======================================================================
+      const configEl = document.getElementById('gift-config-data');
+      let state = JSON.parse(configEl.textContent);
+
+      function encodeGiftPayload(obj) {
+        try {
+          const slim = {
+            r: obj.recipientName,
+            s: obj.senderName,
+            c: obj.catName,
+            t: obj.letterTitle,
+            b: obj.letterBody,
+            d: obj.deliverySpeech,
+            a: obj.countdownSpeech,
+            i: obj.arrivalIsoEgypt
+          };
+          const jsonStr = JSON.stringify(slim);
+          return btoa(encodeURIComponent(jsonStr).replace(/%([0-9A-F]{2})/g, (_, p1) => String.fromCharCode('0x' + p1)));
+        } catch (e) {
+          return '';
+        }
+      }
+
+      function decodeGiftPayload(b64) {
+        try {
+          const jsonStr = decodeURIComponent(Array.prototype.map.call(atob(b64), c => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)).join(''));
+          const slim = JSON.parse(jsonStr);
+          return {
+            recipientName: slim.r || state.recipientName,
+            senderName: slim.s || state.senderName,
+            catName: slim.c || state.catName,
+            letterTitle: slim.t || state.letterTitle,
+            letterBody: slim.b || state.letterBody,
+            deliverySpeech: slim.d || state.deliverySpeech,
+            countdownSpeech: slim.a || state.countdownSpeech,
+            arrivalIsoEgypt: slim.i || state.arrivalIsoEgypt,
+            letterSignature: `with eternal love, ${slim.s || state.senderName} ❤️`
+          };
+        } catch (e) {
+          return null;
+        }
+      }
+
+      try {
+        const saved = localStorage.getItem('habibi_gift_lenca_v4');
+        if (saved) {
+          state = Object.assign({}, state, JSON.parse(saved));
+        }
+      } catch (e) {}
+
+      // Live countdown sentence (Czech) inside the letter, synced with arrivalIsoEgypt (Nov 2, 2026 09:00 Egypt time)
+      function czUnit(n, one, few, many) { return n === 1 ? one : (n >= 2 && n <= 4 ? few : many); }
+      function countdownSentence() {
+        const raw = new Date(state.arrivalIsoEgypt).getTime() - Date.now();
+        if (!isFinite(raw)) return '';
+        if (raw <= 0) return 'Už je to tady — dnes přiletíš! ❤️✈️';
+        const t = Math.floor(raw / 1000), d = Math.floor(t / 86400), h = Math.floor((t % 86400) / 3600), m = Math.floor((t % 3600) / 60), sc = t % 60;
+        return `Už jen ${d} ${czUnit(d, 'den', 'dny', 'dní')}, ${h} ${czUnit(h, 'hodina', 'hodiny', 'hodin')}, ${m} ${czUnit(m, 'minuta', 'minuty', 'minut')} a ${sc} ${czUnit(sc, 'sekunda', 'sekundy', 'sekund')} do tvého příletu. ❤️✈️`;
+      }
+      function normalizeBody(b) { return (b || '').replace(/Už jen [^\n]*?příletu\.[^\n]*/g, '{{COUNTDOWN}}'); }
+
+      function checkUrlGiftHash() {
+        const hash = window.location.hash || '';
+        if (hash.startsWith('#gift=')) {
+          const decoded = decodeGiftPayload(hash.slice(6));
+          if (decoded) {
+            state = Object.assign({}, state, decoded);
+          }
+        }
+      }
+      checkUrlGiftHash();
+      window.addEventListener('hashchange', () => {
+        checkUrlGiftHash();
+        renderAllFromState();
+      });
+
+      // =======================================================================
+      // 2. AUDIO ENGINE (Cat Sounds, Cake Explosion, Page Flip & Superman Whoosh)
+      // =======================================================================
+      let audioCtx = null;
+      let soundEnabled = true;
+
+      function ensureAudioCtx() {
+        if (!soundEnabled) return null;
+        if (!audioCtx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) audioCtx = new AC();
+        }
+        if (audioCtx && audioCtx.state === 'suspended') {
+          audioCtx.resume().catch(() => {});
+        }
+        return audioCtx;
+      }
+
+      // Celebratory Cake Explosion Sound + Sparkle Chime
+      function playCakeExplosionSound() {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+
+        // Soft festive pop
+        const popOsc = ctx.createOscillator();
+        const popGain = ctx.createGain();
+        popOsc.type = 'sine';
+        popOsc.frequency.setValueAtTime(180, now);
+        popOsc.frequency.exponentialRampToValueAtTime(48, now + 0.16);
+        popGain.gain.setValueAtTime(0.22, now);
+        popGain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
+        popOsc.connect(popGain);
+        popGain.connect(ctx.destination);
+        popOsc.start(now);
+        popOsc.stop(now + 0.19);
+
+        // Sparkling romantic arpeggio chime
+        [523.25, 659.25, 783.99, 1046.50, 1318.51].forEach((freq, idx) => {
+          const t = now + 0.06 + idx * 0.07;
+          const osc = ctx.createOscillator();
+          const g = ctx.createGain();
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(freq, t);
+          g.gain.setValueAtTime(0.09, t);
+          g.gain.exponentialRampToValueAtTime(0.0001, t + 0.45);
+          osc.connect(g);
+          g.connect(ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.46);
+        });
+      }
+
+      // Realistic Storybook Page-Flip Rustle & Whoosh Sound Effect
+      function playPageFlipSound() {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+
+        // Filtered white noise for paper page turn rustle
+        const bufferSize = ctx.sampleRate * 0.45;
+        const noiseBuffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+        const output = noiseBuffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+          output[i] = Math.random() * 2 - 1;
+        }
+        const whiteNoise = ctx.createBufferSource();
+        whiteNoise.buffer = noiseBuffer;
+
+        const filter = ctx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.Q.setValueAtTime(1.8, now);
+        filter.frequency.setValueAtTime(600, now);
+        filter.frequency.exponentialRampToValueAtTime(2200, now + 0.22);
+        filter.frequency.exponentialRampToValueAtTime(480, now + 0.44);
+
+        const gain = ctx.createGain();
+        gain.gain.setValueAtTime(0.001, now);
+        gain.gain.linearRampToValueAtTime(0.14, now + 0.12);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.44);
+
+        whiteNoise.connect(filter);
+        filter.connect(gain);
+        gain.connect(ctx.destination);
+        whiteNoise.start(now);
+        whiteNoise.stop(now + 0.45);
+      }
+
+      // Heroic Superman Flight Fanfare & Wind Whoosh
+      function playSupermanFlightSound() {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        // Heroic fifth & octave brass-like chord (C4 -> G4 -> C5)
+        const notes = [
+          { f: 261.63, t: 0, d: 0.28 },
+          { f: 392.00, t: 0.24, d: 0.28 },
+          { f: 523.25, t: 0.50, d: 0.65 }
+        ];
+        notes.forEach(n => {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(n.f, now + n.t);
+          const flt = ctx.createBiquadFilter();
+          flt.type = 'lowpass';
+          flt.frequency.setValueAtTime(1600, now + n.t);
+          gain.gain.setValueAtTime(0.001, now + n.t);
+          gain.gain.linearRampToValueAtTime(0.09, now + n.t + 0.04);
+          gain.gain.exponentialRampToValueAtTime(0.0001, now + n.t + n.d);
+          osc.connect(flt);
+          flt.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now + n.t);
+          osc.stop(now + n.t + n.d + 0.02);
+        });
+      }
+
+      // =======================================================================
+      // 3. CLASSIC ROMANTIC COVER (8-SECOND AUTO-FLIP + CAKE EXPLOSION)
+      // =======================================================================
+      const coverOverlay = document.getElementById('romantic-cover-overlay');
+      const coverCanvas = document.getElementById('cover-fx-canvas');
+      const coverCtx = coverCanvas.getContext('2d');
+      const coverProgressBar = document.getElementById('cover-progress-bar');
+      const coverSecNum = document.getElementById('cover-sec-num');
+      const coverCountdownLabel = document.getElementById('cover-countdown-label');
+      const cakeBtn = document.getElementById('btn-cake-explode');
+
+      let coverVisible = true;
+      let coverFlipTriggered = false;
+      let coverStartTime = Date.now();
+      const COVER_AUTO_DURATION_MS = 8000; // Automatically flips after 8 seconds!
+      let coverPetals = [];
+      let cakeExplosionPieces = [];
+
+      function resizeCoverCanvas() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 3);
+        coverCanvas.width = window.innerWidth * dpr;
+        coverCanvas.height = window.innerHeight * dpr;
+        coverCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        coverPetals = [];
+        for (let i = 0; i < 28; i++) {
+          coverPetals.push({
+            x: Math.random() * window.innerWidth,
+            y: Math.random() * window.innerHeight,
+            vx: -0.3 + Math.random() * 0.6,
+            vy: 0.4 + Math.random() * 0.8,
+            size: 5 + Math.random() * 7,
+            rot: Math.random() * Math.PI * 2,
+            vRot: (Math.random() - 0.5) * 0.03,
+            alpha: 0.25 + Math.random() * 0.45
+          });
+        }
+      }
+      window.addEventListener('resize', resizeCoverCanvas);
+      resizeCoverCanvas();
+
+      function renderCoverCanvas() {
+        if (!coverVisible) return;
+        const w = window.innerWidth;
+        const h = window.innerHeight;
+        coverCtx.clearRect(0, 0, w, h);
+
+        // Draw floating classic rose petals
+        for (const p of coverPetals) {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.rot += p.vRot;
+          if (p.y > h + 20) p.y = -20;
+          if (p.x < -20) p.x = w + 20;
+          if (p.x > w + 20) p.x = -20;
+
+          coverCtx.save();
+          coverCtx.translate(p.x, p.y);
+          coverCtx.rotate(p.rot);
+          coverCtx.fillStyle = `rgba(251, 113, 133, ${p.alpha})`;
+          coverCtx.beginPath();
+          coverCtx.ellipse(0, 0, p.size, p.size * 0.58, 0, 0, Math.PI * 2);
+          coverCtx.fill();
+          coverCtx.restore();
+        }
+
+        // Draw exploding cake slices, strawberries & sparkles when the Cake button is clicked!
+        for (let i = cakeExplosionPieces.length - 1; i >= 0; i--) {
+          const c = cakeExplosionPieces[i];
+          c.x += c.vx;
+          c.y += c.vy;
+          c.vy += 0.22; // gravity
+          c.rot += c.vRot;
+          c.life -= 0.016;
+          if (c.life <= 0) {
+            cakeExplosionPieces.splice(i, 1);
+            continue;
+          }
+          coverCtx.save();
+          coverCtx.translate(c.x, c.y);
+          coverCtx.rotate(c.rot);
+          coverCtx.globalAlpha = Math.max(0, c.life);
+          coverCtx.font = `${c.size}px sans-serif`;
+          coverCtx.textAlign = 'center';
+          coverCtx.textBaseline = 'middle';
+          coverCtx.fillText(c.emoji, 0, 0);
+          coverCtx.restore();
+        }
+
+        requestAnimationFrame(renderCoverCanvas);
+      }
+      requestAnimationFrame(renderCoverCanvas);
+
+      function flipCoverToMainPage() {
+        if (coverFlipTriggered) return;
+        coverFlipTriggered = true;
+
+        playPageFlipSound();
+        coverOverlay.classList.add('cover-page-flipped');
+        document.getElementById('main-page-body').classList.add('page-just-turned');
+
+        setTimeout(() => {
+          coverOverlay.classList.add('hidden');
+          coverVisible = false;
+          playCatMeow('happy');
+        }, 1150);
+      }
+
+      // Trigger Cake Explosion + Page Turn when clicking the Cake Button!
+      function triggerCakeExplosionAndFlip() {
+        if (coverFlipTriggered) return;
+        ensureAudioCtx();
+        playCakeExplosionSound();
+
+        const rect = cakeBtn.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+
+        // Hide the intact cake button as it bursts into slices!
+        cakeBtn.style.transform = 'scale(1.35)';
+        cakeBtn.style.opacity = '0';
+
+        const emojis = ['🍰', '🎂', '🍓', '💖', '✨', '🌸', '🎉', '❤️'];
+        for (let i = 0; i < 38; i++) {
+          const angle = (Math.PI * 2 * i) / 38 + (Math.random() - 0.5) * 0.3;
+          const speed = 4 + Math.random() * 9.5;
+          cakeExplosionPieces.push({
+            x: cx,
+            y: cy,
+            vx: Math.cos(angle) * speed,
+            vy: Math.sin(angle) * speed - 3.5,
+            size: 18 + Math.random() * 16,
+            emoji: emojis[i % emojis.length],
+            rot: (Math.random() - 0.5) * 0.8,
+            vRot: (Math.random() - 0.5) * 0.18,
+            life: 1.0
+          });
+        }
+
+        // After 520ms of cake explosion celebration, flip the cover page with the 3D Page-Turn effect!
+        setTimeout(() => {
+          flipCoverToMainPage();
+        }, 520);
+      }
+
+      cakeBtn.addEventListener('click', triggerCakeExplosionAndFlip);
+      document.getElementById('btn-skip-intro-video').addEventListener('click', flipCoverToMainPage);
+      document.getElementById('btn-start-intro-video').addEventListener('click', triggerCakeExplosionAndFlip);
+
+      // Re-open the Romantic Cover anytime from the header button
+      document.getElementById('btn-replay-intro-header').addEventListener('click', () => {
+        coverFlipTriggered = false;
+        coverVisible = true;
+        coverStartTime = Date.now();
+        cakeBtn.style.transform = '';
+        cakeBtn.style.opacity = '1';
+        coverOverlay.classList.remove('hidden', 'cover-page-flipped');
+        requestAnimationFrame(renderCoverCanvas);
+      });
+
+      // 8-Second Automatic Countdown Timer for the Romantic Cover
+      setInterval(() => {
+        if (!coverVisible || coverFlipTriggered) return;
+        const elapsed = Date.now() - coverStartTime;
+        const remaining = Math.max(0, Math.ceil((COVER_AUTO_DURATION_MS - elapsed) / 1000));
+        const pct = Math.min(100, (elapsed / COVER_AUTO_DURATION_MS) * 100);
+
+        if (coverProgressBar) coverProgressBar.style.width = pct + '%';
+        if (coverSecNum) coverSecNum.textContent = String(remaining);
+        if (coverCountdownLabel) coverCountdownLabel.textContent = `Turning page in ${remaining}s...`;
+
+        if (elapsed >= COVER_AUTO_DURATION_MS) {
+          flipCoverToMainPage();
+        }
+      }, 80);
+
+      // =======================================================================
+      // 4. 4K STARRY SKY, HEART-PETAL FOUNTAIN & SUPERMAN SPARKLE TRAIL CANVAS
+      // =======================================================================
+      const skyCanvas = document.getElementById('sky-fx-canvas');
+      const skyCtx = skyCanvas.getContext('2d');
+      let stars = [];
+      let celebrationParticles = [];
+      let paperPlanes = [];
+
+      function resizeSkyCanvas() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 3);
+        skyCanvas.width = window.innerWidth * dpr;
+        skyCanvas.height = window.innerHeight * dpr;
+        skyCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        stars = [];
+        for (let i = 0; i < 65; i++) {
+          stars.push({
+            x: Math.random() * window.innerWidth,
+            y: Math.random() * (window.innerHeight * 0.72),
+            r: 0.7 + Math.random() * 1.8,
+            alpha: 0.2 + Math.random() * 0.8,
+            speed: 0.008 + Math.random() * 0.022,
+            phase: Math.random() * Math.PI * 2
+          });
+        }
+      }
+      window.addEventListener('resize', resizeSkyCanvas);
+      resizeSkyCanvas();
+
+      function launchEnvelopeBurstEffect() {
+        const cx = window.innerWidth / 2;
+        const cy = window.innerHeight * 0.44;
+
+        paperPlanes = [
+          { x: cx - 30, y: cy, vx: -4.2, vy: -2.8, dir: -1, life: 1.0 },
+          { x: cx + 30, y: cy, vx: 4.2, vy: -2.8, dir: 1, life: 1.0 }
+        ];
+
+        const colors = ['#f43f5e', '#fbbf24', '#fef08a', '#fb7185', '#06b6d4'];
+        for (let i = 0; i < 42; i++) {
+          const angle = -Math.PI / 2 + (Math.random() - 0.5) * 1.45;
+          const speed = 3.5 + Math.random() * 7.5;
+          celebrationParticles.push({
+            x: cx + (Math.random() - 0.5) * 80,
+            y: cy,
+            vx: Math.cos(angle) * speed,
+            vy: Math.sin(angle) * speed - 2,
+            size: 6 + Math.random() * 8,
+            color: colors[i % colors.length],
+            rot: Math.random() * Math.PI * 2,
+            vRot: (Math.random() - 0.5) * 0.14,
+            isHeart: i % 2 === 0,
+            life: 1.0
+          });
+        }
+      }
+
+      function renderSkyCanvas() {
+        skyCtx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+
+        const now = performance.now() * 0.002;
+        const ss = (window.__ss = window.__ss || []);
+        if (Math.random() < 0.006) ss.push({ x: Math.random() * window.innerWidth * 0.8, y: Math.random() * window.innerHeight * 0.35, vx: 9 + Math.random() * 5, vy: 3 + Math.random() * 3, life: 1 });
+        for (let k = ss.length - 1; k >= 0; k--) { const t = ss[k]; t.x += t.vx; t.y += t.vy; t.life -= 0.025; if (t.life <= 0) { ss.splice(k, 1); continue; } const g = skyCtx.createLinearGradient(t.x, t.y, t.x - t.vx * 6, t.y - t.vy * 6); g.addColorStop(0, 'rgba(255,248,220,' + t.life + ')'); g.addColorStop(1, 'rgba(255,248,220,0)'); skyCtx.strokeStyle = g; skyCtx.lineWidth = 2; skyCtx.beginPath(); skyCtx.moveTo(t.x, t.y); skyCtx.lineTo(t.x - t.vx * 6, t.y - t.vy * 6); skyCtx.stroke(); }
+        for (const st of stars) {
+          const a = 0.25 + 0.75 * Math.abs(Math.sin(now + st.phase));
+          skyCtx.fillStyle = `rgba(255, 250, 225, ${a * st.alpha})`;
+          skyCtx.beginPath();
+          skyCtx.arc(st.x, st.y, st.r, 0, Math.PI * 2);
+          skyCtx.fill();
+        }
+
+        for (let i = paperPlanes.length - 1; i >= 0; i--) {
+          const p = paperPlanes[i];
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += 0.03;
+          p.life -= 0.012;
+          if (p.life <= 0) {
+            paperPlanes.splice(i, 1);
+            continue;
+          }
+          skyCtx.save();
+          skyCtx.translate(p.x, p.y);
+          skyCtx.scale(p.dir, 1);
+          skyCtx.globalAlpha = Math.max(0, p.life);
+          skyCtx.fillStyle = '#fef08a';
+          skyCtx.beginPath();
+          skyCtx.moveTo(14, 0);
+          skyCtx.lineTo(-10, -8);
+          skyCtx.lineTo(-6, 0);
+          skyCtx.lineTo(-10, 8);
+          skyCtx.closePath();
+          skyCtx.fill();
+          skyCtx.restore();
+        }
+
+        for (let i = celebrationParticles.length - 1; i >= 0; i--) {
+          const pt = celebrationParticles[i];
+          pt.x += pt.vx;
+          pt.y += pt.vy;
+          pt.vy += 0.12;
+          pt.rot += pt.vRot;
+          pt.life -= 0.014;
+          if (pt.life <= 0) {
+            celebrationParticles.splice(i, 1);
+            continue;
+          }
+          skyCtx.save();
+          skyCtx.translate(pt.x, pt.y);
+          skyCtx.rotate(pt.rot);
+          skyCtx.globalAlpha = Math.max(0, pt.life);
+          skyCtx.fillStyle = pt.color;
+          if (pt.isHeart) {
+            const s = pt.size * 0.6;
+            skyCtx.beginPath();
+            skyCtx.moveTo(0, s * 0.4);
+            skyCtx.bezierCurveTo(-s, -s * 0.4, -s * 0.5, -s * 1.2, 0, -s * 0.4);
+            skyCtx.bezierCurveTo(s * 0.5, -s * 1.2, s, -s * 0.4, 0, s * 0.4);
+            skyCtx.fill();
+          } else {
+            skyCtx.beginPath();
+            skyCtx.ellipse(0, 0, pt.size * 0.65, pt.size * 0.38, 0, 0, Math.PI * 2);
+            skyCtx.fill();
+          }
+          skyCtx.restore();
+        }
+
+        requestAnimationFrame(renderSkyCanvas);
+      }
+      requestAnimationFrame(renderSkyCanvas);
+
+      // =======================================================================
+      // 5. ULTRA-NATURAL VOICE ENGINE + REALISTIC CAT VOCALIZATIONS
+      // =======================================================================
+      let availableVoices = [];
+
+      function loadNaturalVoices() {
+        if (!('speechSynthesis' in window)) return;
+        const raw = window.speechSynthesis.getVoices() || [];
+        if (!raw.length) return;
+        availableVoices = raw;
+
+        const sel = document.getElementById('sel-natural-voice');
+        if (!sel) return;
+        sel.innerHTML = '';
+
+        const enVoices = raw.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+        const listToUse = enVoices.length ? enVoices : raw;
+
+        function scoreVoice(v) {
+          const n = (v.name || '').toLowerCase();
+          let score = 0;
+          if (n.includes('natural') || n.includes('neural') || n.includes('online')) score += 50;
+          if (n.includes('aria') || n.includes('jenny') || n.includes('sonia') || n.includes('libby')) score += 40;
+          if (n.includes('google uk english female') || n.includes('google us english')) score += 35;
+          if (n.includes('samantha') || n.includes('victoria') || n.includes('karen') || n.includes('moira') || n.includes('tessa')) score += 30;
+          if (n.includes('female') || n.includes('woman')) score += 15;
+          return score;
+        }
+
+        const sorted = listToUse.slice().sort((a, b) => scoreVoice(b) - scoreVoice(a));
+        sorted.forEach(v => {
+          const opt = document.createElement('option');
+          opt.value = v.name;
+          opt.textContent = `${v.name} (${v.lang})`;
+          sel.appendChild(opt);
+        });
+
+        if (state.preferredVoiceName && sorted.some(v => v.name === state.preferredVoiceName)) {
+          sel.value = state.preferredVoiceName;
+        } else if (sorted.length > 0) {
+          state.preferredVoiceName = sorted[0].name;
+          sel.value = sorted[0].name;
+        }
+      }
+
+      if ('speechSynthesis' in window) {
+        loadNaturalVoices();
+        window.speechSynthesis.onvoiceschanged = loadNaturalVoices;
+      }
+
+      function playCatMeow(style = 'normal') {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        const osc1 = ctx.createOscillator();
+        const osc2 = ctx.createOscillator();
+        const filter = ctx.createBiquadFilter();
+        const gain = ctx.createGain();
+
+        osc1.type = 'triangle';
+        osc2.type = 'sine';
+
+        let dur = 0.45, fStart = 540, fPeak = 790, fEnd = 460;
+        if (style === 'happy') { dur = 0.42; fStart = 590; fPeak = 920; fEnd = 660; }
+        else if (style === 'soft') { dur = 0.35; fStart = 490; fPeak = 660; fEnd = 430; }
+        else if (style === 'excited') { dur = 0.52; fStart = 610; fPeak = 1020; fEnd = 560; }
+        else if (style === 'chirp') { dur = 0.22; fStart = 660; fPeak = 920; fEnd = 760; }
+
+        const jitter = 0.96 + Math.random() * 0.08;
+        osc1.frequency.setValueAtTime(fStart * jitter, now);
+        osc1.frequency.exponentialRampToValueAtTime(fPeak * jitter, now + dur * 0.36);
+        osc1.frequency.exponentialRampToValueAtTime(fEnd * jitter, now + dur);
+
+        osc2.frequency.setValueAtTime(fStart * 2 * jitter, now);
+        osc2.frequency.exponentialRampToValueAtTime(fPeak * 2 * jitter, now + dur * 0.36);
+        osc2.frequency.exponentialRampToValueAtTime(fEnd * 2 * jitter, now + dur);
+
+        filter.type = 'bandpass';
+        filter.Q.setValueAtTime(2.6, now);
+        filter.frequency.setValueAtTime(850, now);
+        filter.frequency.exponentialRampToValueAtTime(1450, now + dur * 0.4);
+        filter.frequency.exponentialRampToValueAtTime(760, now + dur);
+
+        gain.gain.setValueAtTime(0.001, now);
+        gain.gain.linearRampToValueAtTime(0.11, now + 0.05);
+        gain.gain.exponentialRampToValueAtTime(0.07, now + dur * 0.72);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
+
+        osc1.connect(filter);
+        osc2.connect(filter);
+        filter.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc1.start(now);
+        osc2.start(now);
+        osc1.stop(now + dur + 0.02);
+        osc2.stop(now + dur + 0.02);
+      }
+
+      function playCatPurr(duration = 1.2) {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        const osc = ctx.createOscillator();
+        const lfo = ctx.createOscillator();
+        const filter = ctx.createBiquadFilter();
+        const gain = ctx.createGain();
+
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(25, now);
+        lfo.type = 'sine';
+        lfo.frequency.setValueAtTime(23, now);
+        lfo.connect(osc.frequency);
+
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(175, now);
+
+        gain.gain.setValueAtTime(0.001, now);
+        gain.gain.linearRampToValueAtTime(0.09, now + 0.16);
+        gain.gain.setValueAtTime(0.08, now + Math.max(0.2, duration - 0.2));
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start(now);
+        lfo.start(now);
+        osc.stop(now + duration);
+        lfo.stop(now + duration);
+      }
+
+      function playCatGiggle() {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        [640, 760, 880, 740, 940].forEach((freq, idx) => {
+          setTimeout(() => {
+            if (!soundEnabled) return;
+            const now = ctx.currentTime;
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, now);
+            osc.frequency.exponentialRampToValueAtTime(freq * 1.12, now + 0.08);
+            gain.gain.setValueAtTime(0.08, now);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.1);
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start(now);
+            osc.stop(now + 0.11);
+          }, idx * 85);
+        });
+      }
+
+      function playPendulumTick(isTock = false) {
+        const ctx = ensureAudioCtx();
+        if (!ctx) return;
+        const now = ctx.currentTime;
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(isTock ? 920 : 1180, now);
+        gain.gain.setValueAtTime(0.025, now);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.045);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.05);
+      }
+
+      // =======================================================================
+      // 6. SYNCHRONIZED SPEECH & AUTOMATIC LETTER READER (PLAY/PAUSE/STOP)
+      // =======================================================================
+      let activeSpeechTimer = null;
+      let activeLipSyncInterval = null;
+      let activeAudioElement = null;
+
+      let letterReaderState = {
+        status: 'stopped',
+        clauses: [],
+        currentIndex: 0
+      };
+
+      function updateReaderButtonsUI() {
+        const playIcon = document.getElementById('reader-play-icon');
+        const playLabel = document.getElementById('reader-play-label');
+        const stopBtn = document.getElementById('btn-stop-reader');
+        const autoText = document.getElementById('autoread-state-text');
+
+        if (autoText) autoText.textContent = state.autoReadOnOpen ? 'On' : 'Off';
+
+        if (letterReaderState.status === 'playing') {
+          playIcon.textContent = '⏸️';
+          playLabel.textContent = 'Pause Reader';
+          stopBtn.classList.remove('hidden');
+        } else if (letterReaderState.status === 'paused') {
+          playIcon.textContent = '▶️';
+          playLabel.textContent = 'Resume Reader';
+          stopBtn.classList.remove('hidden');
+        } else {
+          playIcon.textContent = '🔊';
+          playLabel.textContent = 'Read Czech';
+          stopBtn.classList.add('hidden');
+        }
+      }
+
+      function stopAllSpeechAndLipSync() {
+        if (activeSpeechTimer) { clearTimeout(activeSpeechTimer); activeSpeechTimer = null; }
+        if (activeLipSyncInterval) { clearInterval(activeLipSyncInterval); activeLipSyncInterval = null; }
+        if (activeAudioElement) {
+          try { activeAudioElement.pause(); activeAudioElement.currentTime = 0; } catch (e) {}
+          activeAudioElement = null;
+        }
+        if ('speechSynthesis' in window) {
+          try { window.speechSynthesis.cancel(); } catch (e) {}
+        }
+        letterReaderState.status = 'stopped';
+        updateReaderButtonsUI();
+        const catHead = document.getElementById('cat-head');
+        if (catHead) catHead.classList.remove('cat-head-talking');
+        document.getElementById('mouth-open').classList.add('hidden');
+        document.getElementById('mouth-normal').classList.remove('hidden');
+      }
+
+      function toggleLetterAutoReader() {
+        ensureAudioCtx();
+        if (!('speechSynthesis' in window)) return;
+
+        if (letterReaderState.status === 'playing') {
+          letterReaderState.status = 'paused';
+          try { window.speechSynthesis.pause(); } catch (e) {}
+          if (activeSpeechTimer) { clearTimeout(activeSpeechTimer); activeSpeechTimer = null; }
+          if (activeLipSyncInterval) { clearInterval(activeLipSyncInterval); activeLipSyncInterval = null; }
+          document.getElementById('cat-head').classList.remove('cat-head-talking');
+          document.getElementById('mouth-open').classList.add('hidden');
+          document.getElementById('mouth-normal').classList.remove('hidden');
+          updateReaderButtonsUI();
+          setSpeech(`Reader paused ⏸️ Tap 'Resume Reader' whenever you're ready, ${state.recipientName}!`);
+          return;
+        }
+
+        if (letterReaderState.status === 'paused') {
+          letterReaderState.status = 'playing';
+          updateReaderButtonsUI();
+          try { window.speechSynthesis.resume(); } catch (e) {}
+          startLetterClauseLoop();
+          setSpeech(`Resuming ${state.senderName}'s Czech letter for you... ❤️`);
+          return;
+        }
+
+        stopAllSpeechAndLipSync();
+        const cleanText = (state.letterBody || '').replace('{{COUNTDOWN}}', countdownSentence()).replace(/[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/gu, '').trim();
+        letterReaderState.clauses = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
+        letterReaderState.currentIndex = 0;
+        letterReaderState.status = 'playing';
+        updateReaderButtonsUI();
+        setSpeech(`Reading ${state.senderName}'s Czech letter aloud for you, ${state.recipientName}... ❤️`);
+        startLetterClauseLoop();
+      }
+
+      function startLetterClauseLoop() {
+        const catHead = document.getElementById('cat-head');
+        const mouthNormal = document.getElementById('mouth-normal');
+        const mouthOpen = document.getElementById('mouth-open');
+        catHead.classList.add('cat-head-talking');
+
+        if (activeLipSyncInterval) clearInterval(activeLipSyncInterval);
+        let mouthToggle = false;
+        activeLipSyncInterval = setInterval(() => {
+          if (letterReaderState.status !== 'playing') return;
+          mouthToggle = !mouthToggle;
+          mouthOpen.classList.toggle('hidden', !mouthToggle);
+          mouthNormal.classList.toggle('hidden', mouthToggle);
+        }, 150);
+
+        function speakCurrentClause() {
+          if (letterReaderState.status !== 'playing') return;
+          if (letterReaderState.currentIndex >= letterReaderState.clauses.length) {
+            stopAllSpeechAndLipSync();
+            setSpeech(`S nekonečnou láskou, Tvůj ${state.senderName} ❤️🐾`);
+            return;
+          }
+          const clause = (letterReaderState.clauses[letterReaderState.currentIndex] || '').trim();
+          if (!clause) {
+            letterReaderState.currentIndex++;
+            speakCurrentClause();
+            return;
+          }
+          const voices = window.speechSynthesis.getVoices() || availableVoices;
+          const czVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('cs'));
+          const utter = new SpeechSynthesisUtterance(clause);
+          utter.lang = 'cs-CZ';
+          if (czVoice) utter.voice = czVoice;
+          utter.rate = Number(state.voiceRate) || 0.94;
+          utter.pitch = Number(state.voicePitch) || 1.05;
+
+          utter.onend = () => {
+            if (letterReaderState.status !== 'playing') return;
+            letterReaderState.currentIndex++;
+            activeSpeechTimer = setTimeout(speakCurrentClause, 160);
+          };
+          utter.onerror = () => {
+            if (letterReaderState.status !== 'playing') return;
+            letterReaderState.currentIndex++;
+            activeSpeechTimer = setTimeout(speakCurrentClause, 200);
+          };
+          window.speechSynthesis.speak(utter);
+        }
+
+        if (!window.speechSynthesis.speaking) {
+          speakCurrentClause();
+        }
+      }
+
+      document.getElementById('btn-read-aloud-letter').addEventListener('click', toggleLetterAutoReader);
+      document.getElementById('btn-stop-reader').addEventListener('click', () => {
+        stopAllSpeechAndLipSync();
+        setSpeech(`Stopped the automatic reader. You can read at your own pace or press Read Czech anytime! ❤️`);
+      });
+      document.getElementById('btn-toggle-autoread').addEventListener('click', () => {
+        state.autoReadOnOpen = !state.autoReadOnOpen;
+        updateReaderButtonsUI();
+        try { localStorage.setItem('habibi_gift_lenca_v4', JSON.stringify(state)); } catch (e) {}
+      });
+
+      function speakWithSynchronizedCompletion(text, options = {}) {
+        const {
+          lang = 'en-US',
+          customAudioDataUrl = '',
+          onProgress = null,
+          onComplete = null
+        } = options;
+
+        stopAllSpeechAndLipSync();
+
+        const cleanText = text.replace(/[\u{1F300}-\u{1FAFF}\u2600-\u27BF\uFE0F]/gu, '').trim();
+        const catHead = document.getElementById('cat-head');
+        const mouthNormal = document.getElementById('mouth-normal');
+        const mouthOpen = document.getElementById('mouth-open');
+
+        catHead.classList.add('cat-head-talking');
+        let mouthToggle = false;
+        activeLipSyncInterval = setInterval(() => {
+          mouthToggle = !mouthToggle;
+          mouthOpen.classList.toggle('hidden', !mouthToggle);
+          mouthNormal.classList.toggle('hidden', mouthToggle);
+        }, 145);
+
+        let finished = false;
+        const startTime = Date.now();
+        const estimatedMs = Math.max(3800, cleanText.length * 68);
+
+        const progressInterval = setInterval(() => {
+          if (finished) {
+            clearInterval(progressInterval);
+            return;
+          }
+          const elapsed = Date.now() - startTime;
+          const pct = Math.min(96, Math.round((elapsed / estimatedMs) * 100));
+          if (onProgress) onProgress(pct);
+        }, 100);
+
+        function finishNow() {
+          if (finished) return;
+          finished = true;
+          clearInterval(progressInterval);
+          stopAllSpeechAndLipSync();
+          if (onProgress) onProgress(100);
+          playCatMeow('soft');
+          if (onComplete) onComplete();
+        }
+
+        if (customAudioDataUrl && soundEnabled) {
+          try {
+            activeAudioElement = new Audio(customAudioDataUrl);
+            activeAudioElement.onended = finishNow;
+            activeAudioElement.onerror = finishNow;
+            activeAudioElement.play().catch(() => {
+              activeSpeechTimer = setTimeout(finishNow, estimatedMs);
+            });
+            return;
+          } catch (e) {}
+        }
+
+        if (soundEnabled && ('speechSynthesis' in window)) {
+          try {
+            const clauses = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
+            const voices = window.speechSynthesis.getVoices() || availableVoices;
+            let chosenVoice = null;
+            if (lang.startsWith('en')) {
+              chosenVoice = voices.find(v => v.name === state.preferredVoiceName) ||
+                            voices.find(v => /natural|neural|aria|jenny|samantha|google uk english female/i.test(v.name)) ||
+                            voices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+            } else {
+              chosenVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang.slice(0, 2)));
+            }
+
+            let idx = 0;
+            function speakNextClause() {
+              if (finished) return;
+              if (idx >= clauses.length) {
+                finishNow();
+                return;
+              }
+              const clauseText = clauses[idx].trim();
+              idx++;
+              if (!clauseText) {
+                speakNextClause();
+                return;
+              }
+              const utter = new SpeechSynthesisUtterance(clauseText);
+              utter.lang = lang;
+              if (chosenVoice) utter.voice = chosenVoice;
+              utter.pitch = Number(state.voicePitch) || 1.05;
+              utter.rate = Number(state.voiceRate) || 0.94;
+
+              utter.onend = () => {
+                activeSpeechTimer = setTimeout(speakNextClause, 140);
+              };
+              utter.onerror = () => {
+                activeSpeechTimer = setTimeout(speakNextClause, 200);
+              };
+              window.speechSynthesis.speak(utter);
+            }
+
+            playCatMeow('chirp');
+            activeSpeechTimer = setTimeout(speakNextClause, 260);
+
+            setTimeout(() => {
+              if (!finished) finishNow();
+            }, estimatedMs + 2200);
+            return;
+          } catch (e) {}
+        }
+
+        activeSpeechTimer = setTimeout(finishNow, estimatedMs);
+      }
+
+      // =======================================================================
+      // 7. HABIBI CHOREOGRAPHY, 3-CLICK STANDING & 5-SECOND SUPERMAN FLIGHT!
+      // =======================================================================
+      const catEl = document.getElementById('habibi-container');
+      const catRig = document.getElementById('cat-rig');
+      const catHead = document.getElementById('cat-head');
+      const catPupils = document.getElementById('cat-pupils-group');
+      const catTail = document.getElementById('cat-tail-group');
+      const catCape = document.getElementById('cat-egypt-flag-cape');
+      const eyesOpen = document.getElementById('eyes-open');
+      const eyesHappy = document.getElementById('eyes-happy');
+      const eyesSleep = document.getElementById('eyes-sleep');
+      const mouthNormal = document.getElementById('mouth-normal');
+      const mouthOpen = document.getElementById('mouth-open');
+      const heldEnvelope = document.getElementById('cat-held-envelope');
+      const fxLayer = document.getElementById('habibi-fx-layer');
+      const speechBubble = document.getElementById('habibi-speech-bubble');
+      const speechText = document.getElementById('habibi-speech-text');
+      const stateLabel = document.getElementById('cat-state-label');
+      const tripleTapBadge = document.getElementById('triple-tap-badge');
+
+      let catState = {
+        mode: 'perch_envelope',
+        isStanding: false,
+        isFlyingSuperman: false,
+        supermanStartTime: 0,
+        supermanTimer: null,
+        supermanCountdownInterval: null,
+        tapCount: 0,
+        tapResetTimer: null,
+        xPx: window.innerWidth / 2,
+        yPx: 220,
+        targetX: null,
+        targetY: null,
+        vx: 1.9,
+        facing: 1,
+        isDragging: false,
+        longPressTimer: null,
+        lastAutoMeow: Date.now(),
+        activeStage: 'envelope',
+        onReachTarget: null
+      };
+
+      function spawnFloatingFx(symbol = '❤️') {
+        const span = document.createElement('span');
+        span.className = 'text-base sm:text-lg font-bold animate-bounce my-0.5 select-none';
+        span.textContent = symbol;
+        fxLayer.appendChild(span);
+        setTimeout(() => {
+          if (span.parentNode) span.parentNode.removeChild(span);
+        }, 1250);
+      }
+
+      // Non-intrusive docked speech bar update (NEVER covers Habibi's face!)
+      function setSpeech(text) {
+        speechText.textContent = text;
+        speechBubble.classList.remove('hidden');
+      }
+
+      document.getElementById('btn-dismiss-speech').addEventListener('click', () => {
+        speechBubble.classList.add('hidden');
+      });
+
+      function getPerchCoordinates(stageName) {
+        let anchorId = 'perch-anchor-envelope';
+        if (stageName === 'letter') anchorId = 'perch-anchor-letter';
+        else if (stageName === 'countdown') anchorId = 'perch-anchor-countdown';
+
+        const anchor = document.getElementById(anchorId);
+        if (!anchor) return { x: window.innerWidth / 2, y: 180 };
+        const rect = anchor.getBoundingClientRect();
+        return {
+          x: rect.left + rect.width / 2,
+          y: Math.max(72, rect.top - 96)
+        };
+      }
+
+      function applyCatVisualClasses(mode) {
+        catRig.classList.remove('cat-body-idle', 'cat-body-walk', 'cat-body-jump', 'cat-body-laugh', 'cat-body-stand', 'cat-body-superman');
+        catHead.classList.remove('cat-head-pendulum');
+        catPupils.classList.remove('cat-pupils-pendulum');
+        catTail.classList.remove('cat-tail', 'cat-tail-fast');
+        catCape.classList.remove('cape-superman-wave');
+        eyesOpen.classList.add('hidden');
+        eyesHappy.classList.add('hidden');
+        eyesSleep.classList.add('hidden');
+        mouthNormal.classList.add('hidden');
+        mouthOpen.classList.add('hidden');
+
+        const frontL = document.getElementById('paw-front-l');
+        const frontR = document.getElementById('paw-front-r');
+        const backL = document.getElementById('paw-back-l');
+        const backR = document.getElementById('paw-back-r');
+        [frontL, frontR, backL, backR].forEach(p =>
+          p.classList.remove('paw-walk-a', 'paw-walk-b', 'paw-dangle', 'paw-stand-royal', 'paw-superman-front', 'paw-superman-back')
+        );
+
+        if (catState.isFlyingSuperman || mode === 'superman_fly') {
+          catRig.classList.add('cat-body-superman');
+          catCape.classList.add('cape-superman-wave');
+          frontL.classList.add('paw-superman-front');
+          frontR.classList.add('paw-superman-front');
+          backL.classList.add('paw-superman-back');
+          backR.classList.add('paw-superman-back');
+          catTail.classList.add('cat-tail-fast');
+          eyesOpen.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          stateLabel.textContent = 'Flying Like Superman Across the Sky! 🦸‍♀️🇪🇬✨';
+          return;
+        }
+
+        if (catState.isStanding && mode !== 'lifted' && mode !== 'sleep') {
+          catRig.classList.add('cat-body-stand');
+          frontL.classList.add('paw-stand-royal');
+          frontR.classList.add('paw-stand-royal');
+          catTail.classList.add('cat-tail-fast');
+          eyesOpen.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          if (mode === 'perch_countdown_pendulum') {
+            catHead.classList.add('cat-head-pendulum');
+            catPupils.classList.add('cat-pupils-pendulum');
+          }
+          stateLabel.textContent = 'Standing Royally in Pharaonic Crown! 👑🇪🇬 (Tap 3x for Normal)';
+          return;
+        }
+
+        if (mode === 'perch_envelope' || mode === 'perch_letter') {
+          catRig.classList.add('cat-body-idle');
+          catTail.classList.add('cat-tail');
+          eyesOpen.classList.remove('hidden');
+          mouthNormal.classList.remove('hidden');
+          stateLabel.textContent = mode === 'perch_envelope' ? 'Perched on Royal Envelope 💌' : 'Perched on Your Card ❤️';
+        } else if (mode === 'speaking_intro') {
+          catRig.classList.add('cat-body-idle');
+          catTail.classList.add('cat-tail-fast');
+          eyesOpen.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          stateLabel.textContent = 'Delivering Mohamed\'s Intro Message 🗣️';
+        } else if (mode === 'perch_countdown_pendulum') {
+          catRig.classList.add('cat-body-idle');
+          catHead.classList.add('cat-head-pendulum');
+          catPupils.classList.add('cat-pupils-pendulum');
+          catTail.classList.add('cat-tail-fast');
+          eyesOpen.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          stateLabel.textContent = 'Tick-Tock Pendulum! Waiting for Hurghada ⏳😻';
+        } else if (mode === 'walk' || mode === 'running_to_target') {
+          catRig.classList.add('cat-body-walk');
+          catTail.classList.add('cat-tail-fast');
+          eyesOpen.classList.remove('hidden');
+          mouthNormal.classList.remove('hidden');
+          frontL.classList.add('paw-walk-a');
+          frontR.classList.add('paw-walk-b');
+          backL.classList.add('paw-walk-b');
+          backR.classList.add('paw-walk-a');
+          stateLabel.textContent = mode === 'running_to_target' ? 'Running Over! 🐾' : 'Strolling & Meowing 🐾';
+        } else if (mode === 'play') {
+          catRig.classList.add('cat-body-jump');
+          catTail.classList.add('cat-tail-fast');
+          eyesHappy.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          stateLabel.textContent = 'Playing Happily! 🧶';
+        } else if (mode === 'smile') {
+          catRig.classList.add('cat-body-idle');
+          catTail.classList.add('cat-tail-fast');
+          eyesHappy.classList.remove('hidden');
+          mouthNormal.classList.remove('hidden');
+          stateLabel.textContent = 'Smiling Warmly 😸';
+        } else if (mode === 'laugh') {
+          catRig.classList.add('cat-body-laugh');
+          catTail.classList.add('cat-tail-fast');
+          eyesHappy.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          stateLabel.textContent = 'Giggling & Purring 😹';
+        } else if (mode === 'sleep') {
+          catRig.classList.add('cat-body-idle');
+          catTail.classList.add('cat-tail');
+          eyesSleep.classList.remove('hidden');
+          mouthNormal.classList.remove('hidden');
+          stateLabel.textContent = 'Sleeping Peacefully 😴';
+        } else if (mode === 'lifted') {
+          catRig.classList.add('cat-body-idle');
+          catTail.classList.add('cat-tail-fast');
+          eyesHappy.classList.remove('hidden');
+          mouthOpen.classList.remove('hidden');
+          [frontL, frontR, backL, backR].forEach(p => p.classList.add('paw-dangle'));
+          stateLabel.textContent = 'Lifted Up! Wheee! 😻';
+        }
+      }
+
+      function setCatMode(mode) {
+        catState.mode = mode;
+        applyCatVisualClasses(mode);
+      }
+
+      // =======================================================================
+      // 5-SECOND SUPERMAN FLIGHT PLAY / STOP TOGGLE
+      // =======================================================================
+      const supermanBtnTop = document.getElementById('btn-superman-fly');
+      const supermanBtnIcon = document.getElementById('superman-btn-icon');
+      const supermanBtnLabel = document.getElementById('superman-btn-label');
+      const supermanBtnDock = document.getElementById('btn-superman-dock');
+
+      function updateSupermanButtonsUI(remainingSec = 0) {
+        if (catState.isFlyingSuperman) {
+          supermanBtnIcon.textContent = '⏹️';
+          supermanBtnLabel.textContent = `Stop Flying (${remainingSec}s)`;
+          supermanBtnDock.textContent = `⏹️ Stop (${remainingSec}s)`;
+        } else {
+          supermanBtnIcon.textContent = '🦸‍♀️';
+          supermanBtnLabel.textContent = 'Fly 5s (Superman)';
+          supermanBtnDock.textContent = '🦸‍♀️ Fly 5s';
+        }
+      }
+
+      function stopSupermanFlight() {
+        if (!catState.isFlyingSuperman) return;
+        catState.isFlyingSuperman = false;
+        if (catState.supermanTimer) { clearTimeout(catState.supermanTimer); catState.supermanTimer = null; }
+        if (catState.supermanCountdownInterval) { clearInterval(catState.supermanCountdownInterval); catState.supermanCountdownInterval = null; }
+        updateSupermanButtonsUI(0);
+
+        // Return smoothly to current stage perch
+        const p = getPerchCoordinates(catState.activeStage);
+        runHabibiTo(p.x, p.y, () => {
+          if (catState.activeStage === 'countdown') setCatMode('perch_countdown_pendulum');
+          else if (catState.activeStage === 'letter') setCatMode('perch_letter');
+          else setCatMode('perch_envelope');
+        });
+        playCatMeow('happy');
+        setSpeech(`I've landed safely back from my Superman flight for Queen ${state.recipientName}! 🦸‍♀️🐾❤️`);
+      }
+
+      function toggleSupermanFlight5s() {
+        ensureAudioCtx();
+        if (catState.isFlyingSuperman) {
+          stopSupermanFlight();
+          return;
+        }
+
+        catState.isFlyingSuperman = true;
+        catState.supermanStartTime = Date.now();
+        setCatMode('superman_fly');
+        playSupermanFlightSound();
+        spawnFloatingFx('🦸‍♀️');
+        spawnFloatingFx('✨');
+        setSpeech(`Up, up, and away!! Flying across the sky like Superman for 5 seconds for Queen ${state.recipientName}! 🦸‍♀️🇪🇬✨`);
+
+        updateSupermanButtonsUI(5);
+
+        if (catState.supermanCountdownInterval) clearInterval(catState.supermanCountdownInterval);
+        catState.supermanCountdownInterval = setInterval(() => {
+          if (!catState.isFlyingSuperman) return;
+          const elapsed = Date.now() - catState.supermanStartTime;
+          const rem = Math.max(1, Math.ceil((5000 - elapsed) / 1000));
+          updateSupermanButtonsUI(rem);
+        }, 200);
+
+        if (catState.supermanTimer) clearTimeout(catState.supermanTimer);
+        catState.supermanTimer = setTimeout(() => {
+          stopSupermanFlight();
+        }, 5000);
+      }
+
+      supermanBtnTop.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleSupermanFlight5s();
+      });
+      supermanBtnDock.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleSupermanFlight5s();
+      });
+
+      // 3-Click Standing Toggle
+      function toggleRoyalStandingPose() {
+        catState.isStanding = !catState.isStanding;
+        applyCatVisualClasses(catState.mode);
+        if (catState.isStanding) {
+          playCatGiggle();
+          ['👑', '🇪🇬', '☥', '😻'].forEach((ic, idx) => setTimeout(() => spawnFloatingFx(ic), idx * 140));
+          setSpeech(`Ta-da!! Look ${state.recipientName}, I'm standing up in my Royal Pharaonic Crown & Egyptian Flag cape — and my face is completely clear! Tap me 3x again to return to normal! 👑🇪🇬`);
+        } else {
+          playCatMeow('happy');
+          playCatPurr(1.1);
+          spawnFloatingFx('🐾');
+          setSpeech(`Back on all four paws and ready to play with you, ${state.recipientName}! 🐾❤️`);
+        }
+      }
+
+      document.getElementById('btn-stand-toggle-dock').addEventListener('click', (e) => {
+        e.stopPropagation();
+        ensureAudioCtx();
+        toggleRoyalStandingPose();
+      });
+
+      function runHabibiTo(targetX, targetY, callback) {
+        catState.targetX = targetX;
+        catState.targetY = targetY;
+        catState.onReachTarget = callback || null;
+        setCatMode('running_to_target');
+      }
+
+      // Main 60FPS Animation Loop (Includes 5-Second Superman Figure-8 Sky Flight!)
+      function animateHabibiLoop() {
+        if (!catState.isDragging) {
+          if (catState.isFlyingSuperman) {
+            // Heroic figure-8 / sweeping sky arc across the page for 5 seconds!
+            const elapsedSec = (Date.now() - catState.supermanStartTime) / 1000;
+            const w = window.innerWidth;
+            const h = window.innerHeight;
+            const angle = elapsedSec * 2.5;
+            const nextX = (w * 0.5) + Math.sin(angle) * Math.min(w * 0.36, 360);
+            const nextY = (h * 0.28) + Math.sin(angle * 2) * Math.min(h * 0.16, 120);
+
+            const dx = nextX - catState.xPx;
+            if (Math.abs(dx) > 0.8) catState.facing = dx > 0 ? 1 : -1;
+            catState.xPx = nextX;
+            catState.yPx = nextY;
+
+            // Spawn golden & crimson superman flight trail particles on sky canvas!
+            if (Math.random() < 0.65) {
+              celebrationParticles.push({
+                x: catState.xPx - catState.facing * 35,
+                y: catState.yPx + 45,
+                vx: -catState.facing * (2 + Math.random() * 2.5),
+                vy: (Math.random() - 0.5) * 1.5,
+                size: 5 + Math.random() * 5,
+                color: Math.random() > 0.5 ? '#fbbf24' : '#ef4444',
+                rot: Math.random() * Math.PI,
+                vRot: 0.1,
+                isHeart: Math.random() > 0.6,
+                life: 0.65
+              });
+            }
+          } else if (catState.mode === 'running_to_target' && catState.targetX !== null && catState.targetY !== null) {
+            const dx = catState.targetX - catState.xPx;
+            const dy = catState.targetY - catState.yPx;
+            const dist = Math.hypot(dx, dy);
+            if (dist < 10) {
+              catState.xPx = catState.targetX;
+              catState.yPx = catState.targetY;
+              catState.targetX = null;
+              catState.targetY = null;
+              catState.facing = 1;
+              const cb = catState.onReachTarget;
+              catState.onReachTarget = null;
+              if (cb) cb();
+            } else {
+              const speed = Math.min(dist, 9.5);
+              catState.xPx += (dx / dist) * speed;
+              catState.yPx += (dy / dist) * speed;
+              if (Math.random() < 0.7) celebrationParticles.push({ x: catState.xPx, y: catState.yPx + 95, vx: (Math.random() - 0.5) * 1.5, vy: -0.5 - Math.random(), size: 4 + Math.random() * 5, color: Math.random() > 0.5 ? '#fde047' : '#fb7185', rot: 0, vRot: 0.1, isHeart: Math.random() > 0.5, life: 0.7 });
+              if (Math.abs(dx) > 3) catState.facing = dx > 0 ? 1 : -1;
+            }
+          } else if (catState.mode === 'perch_envelope' || catState.mode === 'speaking_intro') {
+            const perch = getPerchCoordinates('envelope');
+            catState.xPx += (perch.x - catState.xPx) * 0.18;
+            catState.yPx += (perch.y - catState.yPx) * 0.18;
+            catState.facing = 1;
+          } else if (catState.mode === 'perch_letter') {
+            const perch = getPerchCoordinates('letter');
+            catState.xPx += (perch.x - catState.xPx) * 0.18;
+            catState.yPx += (perch.y - catState.yPx) * 0.18;
+            catState.facing = 1;
+          } else if (catState.mode === 'perch_countdown_pendulum') {
+            const perch = getPerchCoordinates('countdown');
+            catState.xPx += (perch.x - catState.xPx) * 0.22;
+            catState.yPx += (perch.y - catState.yPx) * 0.22;
+            catState.facing = 1;
+          } else if (catState.mode === 'walk') {
+            const walkY = window.innerHeight - 195;
+            catState.yPx += (walkY - catState.yPx) * 0.12;
+            catState.xPx += catState.vx * catState.facing;
+            const minX = 75;
+            const maxX = window.innerWidth - 110;
+            if (catState.xPx >= maxX) {
+              catState.xPx = maxX;
+              catState.facing = -1;
+            } else if (catState.xPx <= minX) {
+              catState.xPx = minX;
+              catState.facing = 1;
+            }
+
+            if (Date.now() - catState.lastAutoMeow > 6200) {
+              catState.lastAutoMeow = Date.now();
+              playCatMeow(Math.random() > 0.5 ? 'soft' : 'chirp');
+              spawnFloatingFx('🐾');
+            }
+          }
+        }
+
+        catEl.style.left = catState.xPx + 'px';
+        catEl.style.top = catState.yPx + 'px';
+        document.getElementById('habibi-svg').style.transform = `scaleX(${catState.facing})`;
+
+        requestAnimationFrame(animateHabibiLoop);
+      }
+
+      // =======================================================================
+      // 8. SEQUENCED INTRO MESSAGE -> ENVELOPE FLAP -> LETTER REVEAL
+      // =======================================================================
+      const envelopeStage = document.getElementById('envelope-stage');
+      const letterStage = document.getElementById('letter-stage');
+      const countdownPanel = document.getElementById('countdown-panel');
+      const envelopeFlap = document.getElementById('envelope-top-flap');
+      const introProgressBox = document.getElementById('intro-speech-progress-box');
+      const introSpeechBar = document.getElementById('intro-speech-bar');
+      const introSpeechPct = document.getElementById('intro-speech-pct');
+
+      let sequenceInProgress = false;
+
+      function startSequencedLetterDelivery() {
+        if (sequenceInProgress) return;
+        if (catState.isFlyingSuperman) stopSupermanFlight();
+        sequenceInProgress = true;
+        ensureAudioCtx();
+
+        countdownPanel.classList.add('hidden');
+        letterStage.classList.add('hidden');
+        envelopeStage.classList.remove('hidden');
+        envelopeFlap.classList.remove('envelope-flap-open');
+        catState.activeStage = 'envelope';
+
+        const perch = getPerchCoordinates('envelope');
+
+        runHabibiTo(perch.x, perch.y, () => {
+          heldEnvelope.classList.remove('hidden');
+          setCatMode('speaking_intro');
+          spawnFloatingFx('💌');
+          spawnFloatingFx('👑');
+
+          const introLine = state.deliverySpeech
+            .replace(/Lenča/g, state.recipientName)
+            .replace(/Azam/g, state.senderName);
+
+          setSpeech(introLine);
+          introProgressBox.classList.remove('hidden');
+          introSpeechBar.style.width = '0%';
+          introSpeechPct.textContent = '0%';
+          document.getElementById('btn-open-letter-main').textContent = 'Habibi is speaking... 🐾';
+
+          speakWithSynchronizedCompletion(introLine, {
+            lang: 'en-US',
+            customAudioDataUrl: state.customIntroAudioDataUrl,
+            onProgress: (pct) => {
+              introSpeechBar.style.width = pct + '%';
+              introSpeechPct.textContent = pct + '%';
+            },
+            onComplete: () => {
+              heldEnvelope.classList.add('hidden');
+              introProgressBox.classList.add('hidden');
+              envelopeFlap.classList.add('envelope-flap-open');
+              launchEnvelopeBurstEffect();
+              playPageFlipSound();
+              playCatPurr(1.4);
+              spawnFloatingFx('❤️');
+              spawnFloatingFx('☥');
+
+              setTimeout(() => {
+                envelopeStage.classList.add('hidden');
+                letterStage.classList.remove('hidden');
+                catState.activeStage = 'letter';
+                setCatMode('perch_letter');
+                setSpeech(`Your royal dispatch is open, Queen ${state.recipientName}! Use Read Czech / Pause Reader anytime ❤️`);
+                document.getElementById('btn-open-letter-main').textContent = 'Open the Message';
+                sequenceInProgress = false;
+
+                if (state.autoReadOnOpen) {
+                  toggleLetterAutoReader();
+                }
+              }, 750);
+            }
+          });
+        });
+      }
+
+      document.getElementById('envelope-card-btn').addEventListener('click', startSequencedLetterDelivery);
+      document.getElementById('btn-open-letter-main').addEventListener('click', startSequencedLetterDelivery);
+      document.getElementById('btn-tap-to-open-video').addEventListener('click', startSequencedLetterDelivery);
+      document.getElementById('btn-say-open-letter').addEventListener('click', startSequencedLetterDelivery);
+
+      document.getElementById('btn-fold-letter').addEventListener('click', () => {
+        stopAllSpeechAndLipSync();
+        sequenceInProgress = false;
+        playPageFlipSound();
+        letterStage.classList.add('hidden');
+        envelopeStage.classList.remove('hidden');
+        envelopeFlap.classList.remove('envelope-flap-open');
+        catState.activeStage = 'envelope';
+        setCatMode('perch_envelope');
+        playCatMeow('soft');
+        setSpeech(`I tucked your royal letter safely back into the envelope, ${state.recipientName}! 💌🐾`);
+      });
+
+      // =======================================================================
+      // 9. HURGHADA AIRPORT COUNTDOWN + PENDULUM HEAD & EYE SWING ON CARD TOP
+      // =======================================================================
+      let pendulumSoundInterval = null;
+
+      function updateEgyptCountdown() {
+        const targetMs = new Date(state.arrivalIsoEgypt).getTime();
+        const nowMs = Date.now();
+        const diffMs = Math.max(0, targetMs - nowMs);
+
+        const totalSeconds = Math.floor(diffMs / 1000);
+        const days = Math.floor(totalSeconds / 86400);
+        const hours = Math.floor((totalSeconds % 86400) / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
+
+        document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+        document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+        document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+        document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+
+        const badge = document.getElementById('mini-countdown-badge');
+        if (badge) badge.textContent = `${days}d ${hours}h ${minutes}m`;
+        const liveLetterCd = document.getElementById('letter-live-countdown');
+        if (liveLetterCd) liveLetterCd.textContent = countdownSentence();
+      }
+      setInterval(updateEgyptCountdown, 1000);
+
+      function openHurghadaCountdownWithPendulumCat() {
+        if (catState.isFlyingSuperman) stopSupermanFlight();
+        stopAllSpeechAndLipSync();
+        sequenceInProgress = false;
+        ensureAudioCtx();
+
+        envelopeStage.classList.add('hidden');
+        letterStage.classList.add('hidden');
+        countdownPanel.classList.remove('hidden');
+        catState.activeStage = 'countdown';
+        updateEgyptCountdown();
+
+        const perch = getPerchCoordinates('countdown');
+
+        setSpeech(`Running to the top of the Hurghada Countdown clock! 🐾✈️`);
+        runHabibiTo(perch.x, perch.y, () => {
+          setCatMode('perch_countdown_pendulum');
+          launchEnvelopeBurstEffect();
+          playCatGiggle();
+
+          ['✈️', '🍫', '⏳', '😻', '☥'].forEach((ic, idx) => {
+            setTimeout(() => spawnFloatingFx(ic), idx * 170);
+          });
+
+          if (pendulumSoundInterval) clearInterval(pendulumSoundInterval);
+          let tickState = false;
+          pendulumSoundInterval = setInterval(() => {
+            if (catState.activeStage !== 'countdown') {
+              clearInterval(pendulumSoundInterval);
+              return;
+            }
+            tickState = !tickState;
+            playPendulumTick(tickState);
+          }, 1000);
+
+          const airportMsg = state.countdownSpeech.replace(/Lenča/g, state.recipientName);
+          setSpeech(airportMsg);
+
+          speakWithSynchronizedCompletion(airportMsg, {
+            lang: 'en-US',
+            customAudioDataUrl: state.customAirportAudioDataUrl,
+            onComplete: () => {
+              if (catState.activeStage === 'countdown') {
+                setCatMode('perch_countdown_pendulum');
+              }
+            }
+          });
+        });
+      }
+
+      function closeHurghadaCountdownAndPlay() {
+        stopAllSpeechAndLipSync();
+        if (pendulumSoundInterval) {
+          clearInterval(pendulumSoundInterval);
+          pendulumSoundInterval = null;
+        }
+        countdownPanel.classList.add('hidden');
+
+        if (envelopeFlap.classList.contains('envelope-flap-open')) {
+          letterStage.classList.remove('hidden');
+          catState.activeStage = 'letter';
+        } else {
+          envelopeStage.classList.remove('hidden');
+          catState.activeStage = 'envelope';
+        }
+
+        const playX = Math.min(window.innerWidth - 120, Math.max(120, window.innerWidth * 0.65));
+        const playY = window.innerHeight - 195;
+        setSpeech(`Going down to play with my yarn ball while we count the hours to Hurghada! 🧶🐾`);
+        runHabibiTo(playX, playY, () => {
+          setCatMode('play');
+          playCatMeow('happy');
+          spawnFloatingFx('🧶');
+          setTimeout(() => {
+            if (catState.mode === 'play') setCatMode('walk');
+          }, 2400);
+        });
+      }
+
+      document.getElementById('btn-hurghada-countdown').addEventListener('click', openHurghadaCountdownWithPendulumCat);
+      document.getElementById('btn-replay-airport-joy').addEventListener('click', openHurghadaCountdownWithPendulumCat);
+      document.getElementById('btn-close-countdown').addEventListener('click', closeHurghadaCountdownAndPlay);
+      document.getElementById('btn-close-countdown-bottom').addEventListener('click', closeHurghadaCountdownAndPlay);
+
+      // =======================================================================
+      // 10. 3-TAP STANDING TOGGLE, DIRECT TOUCH, LONG-PRESS LIFT & CAT TOY
+      // =======================================================================
+      function clampOutsideLetterText(clientX, clientY) {
+        let x = Math.max(55, Math.min(window.innerWidth - 55, clientX));
+        let y = Math.max(65, Math.min(window.innerHeight - 95, clientY - 45));
+
+        if (catState.activeStage === 'letter') {
+          const bodyBox = document.getElementById('letter-safe-zone');
+          if (bodyBox) {
+            const r = bodyBox.getBoundingClientRect();
+            const overlapsX = x > r.left - 30 && x < r.right + 30;
+            const overlapsY = (y + 60) > r.top && (y - 40) < r.bottom;
+            if (overlapsX && overlapsY) {
+              y = clientY < (r.top + r.height / 2) ? Math.max(62, r.top - 102) : Math.min(window.innerHeight - 140, r.bottom + 25);
+            }
+          }
+        }
+        return { x, y };
+      }
+
+      let pointerDownPos = { x: 0, y: 0 };
+      let pointerMovedDuringTap = false;
+
+      catEl.addEventListener('pointerdown', (e) => {
+        e.stopPropagation();
+        ensureAudioCtx();
+        pointerDownPos = { x: e.clientX, y: e.clientY };
+        pointerMovedDuringTap = false;
+        catEl.setPointerCapture(e.pointerId);
+
+        clearTimeout(catState.longPressTimer);
+        catState.longPressTimer = setTimeout(() => {
+          if (catState.isFlyingSuperman) stopSupermanFlight();
+          catState.isDragging = true;
+          setCatMode('lifted');
+          playCatPurr(1.2);
+          spawnFloatingFx('😻');
+          setSpeech(`Wheee! You lifted me up, Queen ${state.recipientName}! 🐾💕`);
+        }, 240);
+      });
+
+      catEl.addEventListener('pointermove', (e) => {
+        const dist = Math.hypot(e.clientX - pointerDownPos.x, e.clientY - pointerDownPos.y);
+        if (dist > 10 && !catState.isDragging) {
+          clearTimeout(catState.longPressTimer);
+          if (catState.isFlyingSuperman) stopSupermanFlight();
+          catState.isDragging = true;
+          pointerMovedDuringTap = true;
+          setCatMode('lifted');
+        }
+        if (!catState.isDragging) return;
+        const pos = clampOutsideLetterText(e.clientX, e.clientY);
+        catState.xPx = pos.x;
+        catState.yPx = pos.y;
+      });
+
+      function endDragOrHandleTap() {
+        clearTimeout(catState.longPressTimer);
+        if (catState.isDragging) {
+          catState.isDragging = false;
+          playCatMeow('chirp');
+          spawnFloatingFx('✨');
+          if (catState.yPx > window.innerHeight - 250) {
+            setCatMode('walk');
+          } else if (catState.activeStage === 'countdown') {
+            setCatMode('perch_countdown_pendulum');
+          } else if (catState.activeStage === 'letter') {
+            setCatMode('perch_letter');
+          } else {
+            setCatMode('perch_envelope');
+          }
+          return;
+        }
+
+        if (!pointerMovedDuringTap) {
+          catState.tapCount += 1;
+          clearTimeout(catState.tapResetTimer);
+
+          tripleTapBadge.classList.remove('hidden');
+          if (catState.tapCount < 3) {
+            const targetPoseName = catState.isStanding ? 'Normal Pose' : 'Royal Stand';
+            tripleTapBadge.textContent = `👑 Tap ${catState.tapCount}/3 for ${targetPoseName}`;
+            playCatMeow('happy');
+            spawnFloatingFx('❤️');
+            catState.tapResetTimer = setTimeout(() => {
+              catState.tapCount = 0;
+              tripleTapBadge.classList.add('hidden');
+            }, 1800);
+          } else {
+            catState.tapCount = 0;
+            tripleTapBadge.textContent = catState.isStanding ? '🐾 Normal Pose!' : '👑 Standing Up!';
+            toggleRoyalStandingPose();
+            setTimeout(() => {
+              tripleTapBadge.classList.add('hidden');
+            }, 1400);
+          }
+        }
+      }
+      catEl.addEventListener('pointerup', endDragOrHandleTap);
+      catEl.addEventListener('pointercancel', endDragOrHandleTap);
+
+      document.body.addEventListener('pointerdown', (e) => {
+        if (e.target.closest('button, input, textarea, select, label, #romantic-cover-overlay, #customizer-modal, #envelope-card-btn, #letter-safe-zone, #countdown-panel, #cat-toy-zone, #habibi-container')) {
+          return;
+        }
+        ensureAudioCtx();
+        clearTimeout(catState.longPressTimer);
+        catState.longPressTimer = setTimeout(() => {
+          if (catState.isFlyingSuperman) stopSupermanFlight();
+          catState.isDragging = true;
+          const pos = clampOutsideLetterText(e.clientX, e.clientY);
+          catState.xPx = pos.x;
+          catState.yPx = pos.y;
+          setCatMode('lifted');
+          playCatPurr(1.3);
+          spawnFloatingFx('😻');
+          setSpeech(`Wheee! You summoned me with a long press, ${state.recipientName}! 🐾❤️`);
+        }, 380);
+      });
+
+      window.addEventListener('pointermove', (e) => {
+        if (catState.isDragging) {
+          const pos = clampOutsideLetterText(e.clientX, e.clientY);
+          catState.xPx = pos.x;
+          catState.yPx = pos.y;
+        }
+      });
+
+      window.addEventListener('pointerup', () => {
+        clearTimeout(catState.longPressTimer);
+        if (catState.isDragging) endDragOrHandleTap();
+      });
+
+      const bedZone = document.getElementById('cat-bed-zone');
+      bedZone.addEventListener('click', (e) => {
+        e.stopPropagation();
+        ensureAudioCtx();
+        if (catState.isFlyingSuperman) stopSupermanFlight();
+        const r = bedZone.getBoundingClientRect();
+        setSpeech(`Heading over to my royal Pharaonic cushion! 🛋️🐾`);
+        runHabibiTo(r.left + 40, r.top - 45, () => {
+          catState.isStanding = false;
+          setCatMode('sleep');
+          playCatPurr(1.8);
+          spawnFloatingFx('💤');
+        });
+      });
+
+      const toyZone = document.getElementById('cat-toy-zone');
+      const toySprite = document.getElementById('cat-toy-sprite');
+      toyZone.addEventListener('click', (e) => {
+        e.stopPropagation();
+        ensureAudioCtx();
+        if (catState.isFlyingSuperman) stopSupermanFlight();
+        toySprite.classList.add('yarn-active');
+        playCatMeow('excited');
+        const toyRect = toyZone.getBoundingClientRect();
+        setSpeech(`Ooh! My royal yarn & feather toy! Coming right over to play! 🧶🐾`);
+        runHabibiTo(toyRect.left - 45, toyRect.top - 30, () => {
+          setCatMode('play');
+          playCatPurr(1.5);
+          spawnFloatingFx('🧶');
+          spawnFloatingFx('❤️');
+          setTimeout(() => {
+            toySprite.classList.remove('yarn-active');
+            if (catState.mode === 'play') setCatMode('walk');
+          }, 3000);
+        });
+      });
+
+      document.querySelectorAll('.cat-action-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          ensureAudioCtx();
+          if (catState.isFlyingSuperman) stopSupermanFlight();
+          const act = btn.getAttribute('data-cat-action');
+          if (act === 'perch') {
+            const p = getPerchCoordinates(catState.activeStage);
+            runHabibiTo(p.x, p.y, () => {
+              if (catState.activeStage === 'countdown') setCatMode('perch_countdown_pendulum');
+              else if (catState.activeStage === 'letter') setCatMode('perch_letter');
+              else setCatMode('perch_envelope');
+            });
+            setSpeech(`Hopping right back onto the top of your card, ${state.recipientName}! 🐾`);
+          } else if (act === 'walk') {
+            catState.yPx = window.innerHeight - 195;
+            setCatMode('walk');
+            playCatMeow('normal');
+            setSpeech(`Strolling left and right in my Egyptian Flag cape for ${state.recipientName}! 🐾🇪🇬`);
+          } else if (act === 'play') {
+            setCatMode('play');
+            playCatMeow('excited');
+            spawnFloatingFx('🧶');
+            spawnFloatingFx('❤️');
+            setSpeech(`Playing and pouncing for you, ${state.recipientName}! 🧶🐾`);
+          } else if (act === 'smile') {
+            setCatMode('smile');
+            playCatPurr(1.4);
+            spawnFloatingFx('😸');
+            setSpeech(`Smiling my warmest royal smile for you, ${state.recipientName}! 😸❤️`);
+          } else if (act === 'laugh') {
+            setCatMode('laugh');
+            playCatGiggle();
+            spawnFloatingFx('😹');
+            setSpeech(`Hehehe! Meow-haha! You make me so happy, ${state.recipientName}! 😹💕`);
+          } else if (act === 'sleep') {
+            catState.isStanding = false;
+            setCatMode('sleep');
+            playCatPurr(2.0);
+            spawnFloatingFx('💤');
+            setSpeech(`Purrrr... taking a royal catnap under the Egyptian moonlight... 😴💤`);
+          }
+        });
+      });
+
+      // =======================================================================
+      // 11. VOICE MICROPHONE REACTIVITY & SOUND MUTE
+      // =======================================================================
+      let micActive = false;
+      let micStream = null;
+      let speechRec = null;
+
+      document.getElementById('btn-voice-mic').addEventListener('click', async () => {
+        ensureAudioCtx();
+        const micLabel = document.getElementById('mic-label');
+        const micMeter = document.getElementById('mic-meter-pill');
+
+        if (micActive) {
+          micActive = false;
+          if (micStream) micStream.getTracks().forEach(t => t.stop());
+          if (speechRec) { try { speechRec.stop(); } catch (e) {} }
+          micLabel.textContent = 'Talk to Habibi';
+          micMeter.classList.add('hidden');
+          micMeter.classList.remove('inline-flex');
+          setSpeech(`Voice mic paused. Tap me 3x to stand, press 'Fly 5s', or click 'Tap to open' anytime! 🐾`);
+          return;
+        }
+
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (SR) {
+          try {
+            speechRec = new SR();
+            speechRec.continuous = true;
+            speechRec.interimResults = true;
+            speechRec.lang = 'en-US';
+            speechRec.onresult = (ev) => {
+              for (let i = ev.resultIndex; i < ev.results.length; i++) {
+                const t = ev.results[i][0].transcript.toLowerCase();
+                if (t.includes('open') || t.includes('message') || t.includes('letter')) {
+                  startSequencedLetterDelivery();
+                  break;
+                }
+              }
+            };
+            speechRec.start();
+          } catch (e) {}
+        }
+
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+          try {
+            micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            micActive = true;
+            micLabel.textContent = 'Listening...';
+            micMeter.classList.remove('hidden');
+            micMeter.classList.add('inline-flex');
+            setSpeech(`I'm listening to your voice, ${state.recipientName}! Say "Open the message" or talk to me! 🎙️🐾`);
+
+            const ctx = ensureAudioCtx();
+            const src = ctx.createMediaStreamSource(micStream);
+            const analyser = ctx.createAnalyser();
+            analyser.fftSize = 256;
+            src.connect(analyser);
+            const data = new Uint8Array(analyser.frequencyBinCount);
+
+            let lastReact = 0;
+            function pollVoice() {
+              if (!micActive) return;
+              analyser.getByteFrequencyData(data);
+              let sum = 0;
+              for (let i = 0; i < data.length; i++) sum += data[i];
+              const avg = sum / data.length;
+
+              document.getElementById('mic-bar-1').style.height = Math.min(14, 3 + avg * 0.22) + 'px';
+              document.getElementById('mic-bar-2').style.height = Math.min(18, 4 + avg * 0.32) + 'px';
+              document.getElementById('mic-bar-3').style.height = Math.min(14, 3 + avg * 0.2) + 'px';
+
+              if (avg > 34 && Date.now() - lastReact > 2400 && !sequenceInProgress) {
+                lastReact = Date.now();
+                playCatMeow('chirp');
+                spawnFloatingFx('🎵');
+                spawnFloatingFx('❤️');
+              }
+              requestAnimationFrame(pollVoice);
+            }
+            pollVoice();
+          } catch (e) {
+            setSpeech(`Tap "Say 'Open the Message'" and I'll speak my intro and open your letter! 🐾`);
+          }
+        }
+      });
+
+      document.getElementById('btn-sound-toggle').addEventListener('click', () => {
+        soundEnabled = !soundEnabled;
+        document.getElementById('sound-icon').textContent = soundEnabled ? '🔊' : '🔇';
+        document.getElementById('sound-label').textContent = soundEnabled ? 'Sound On' : 'Muted';
+        if (!soundEnabled) {
+          stopAllSpeechAndLipSync();
+        } else {
+          ensureAudioCtx();
+          playCatMeow('happy');
+        }
+      });
+
+      // =======================================================================
+      // 12. LIVE EDITOR, REUSABLE SHARE LINK & ARCHIVE MANAGER
+      // =======================================================================
+      function renderAllFromState() {
+        state.letterBody = normalizeBody(state.letterBody);
+        document.getElementById('header-sender-name').textContent = state.senderName;
+        document.getElementById('header-cat-name').textContent = state.catName;
+        document.getElementById('header-recipient-name').textContent = state.recipientName;
+        document.getElementById('seal-sender').textContent = state.senderName.toUpperCase();
+        document.getElementById('sprite-cat-name').textContent = state.catName;
+        document.getElementById('env-recipient-name').textContent = state.recipientName;
+        document.getElementById('env-cat-name').textContent = state.catName;
+        document.getElementById('env-sender-name').textContent = state.senderName;
+        document.getElementById('seal-recipient').textContent = state.recipientName.toUpperCase();
+        document.getElementById('speaking-cat-name').textContent = state.catName;
+        document.getElementById('stage-cat-name').textContent = state.catName;
+        document.getElementById('cd-recipient-name').textContent = state.recipientName;
+        let arrLbl = state.arrivalDisplayLabel;
+        try { const ad = new Date(state.arrivalIsoEgypt); if (!isNaN(ad)) arrLbl = new Intl.DateTimeFormat('en-US', { timeZone: 'Africa/Cairo', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' }).format(ad) + ' (Hurghada / Egypt Time)'; } catch (e) {}
+        document.getElementById('cd-target-label').textContent = `Arrival: ${arrLbl}`;
+        document.getElementById('letter-title-display').textContent = state.letterTitle;
+        document.getElementById('letter-cat-credit').textContent = state.catName;
+        document.getElementById('letter-signature-display').textContent = `with eternal love, ${state.senderName} ❤️`;
+        { const q = document.getElementById('cd-habibi-quote'); q.textContent = ''; q.append('🐾 '); const st = document.createElement('strong'); st.textContent = state.catName + ':'; q.append(st, ' "' + state.countdownSpeech.replace(/Lenča/g, state.recipientName) + '"'); }
+
+        const bodyContainer = document.getElementById('letter-body-container');
+        bodyContainer.innerHTML = '';
+        (state.letterBody || '').split(/\n\s*\n/).forEach(para => {
+          if (!para.trim()) return;
+          const p = document.createElement('p');
+          p.className = 'text-stone-800 leading-relaxed';
+          if (para.trim() === '{{COUNTDOWN}}') {
+            p.id = 'letter-live-countdown';
+            p.className += ' font-bold text-rose-700';
+            p.textContent = countdownSentence();
+          } else {
+            p.textContent = para.trim();
+          }
+          bodyContainer.appendChild(p);
+        });
+
+        const photoSec = document.getElementById('photo-gallery-section');
+        const galleryGrid = document.getElementById('photo-gallery-grid');
+        galleryGrid.innerHTML = '';
+        if (state.photos && state.photos.length > 0) {
+          photoSec.classList.remove('hidden');
+          state.photos.forEach(ph => {
+            const card = document.createElement('div');
+            card.className = 'bg-white p-2 rounded-xl shadow border border-amber-200 flex flex-col';
+            const img = document.createElement('img');
+            img.src = ph.dataUrl;
+            img.alt = ph.caption || 'Memory';
+            img.className = 'w-full h-32 object-cover rounded-lg mb-1.5';
+            const cap = document.createElement('p');
+            cap.className = 'text-[11px] text-stone-700 italic text-center';
+            cap.textContent = ph.caption || '';
+            card.appendChild(img);
+            card.appendChild(cap);
+            galleryGrid.appendChild(card);
+          });
+        } else {
+          photoSec.classList.add('hidden');
+        }
+
+        updateReaderButtonsUI();
+        updateEgyptCountdown();
+      }
+
+      const customizerModal = document.getElementById('customizer-modal');
+
+      function updateShareableUrlInput() {
+        const encoded = encodeGiftPayload(state);
+        const base = window.location.href.split('#')[0];
+        const shareUrl = `${base}#gift=${encoded}`;
+        const inp = document.getElementById('inp-live-share-url');
+        if (inp) inp.value = shareUrl;
+        return shareUrl;
+      }
+
+      function renderTemplatesArchive() {
+        const container = document.getElementById('templates-list-container');
+        container.innerHTML = '';
+        (state.savedTemplates || []).forEach((tpl, idx) => {
+          const pill = document.createElement('div');
+          pill.className = 'inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-amber-300 text-xs shadow-sm';
+
+          const loadBtn = document.createElement('button');
+          loadBtn.type = 'button';
+          loadBtn.className = 'font-semibold text-amber-900 hover:text-rose-600';
+          loadBtn.textContent = `💌 ${tpl.title}`;
+          loadBtn.addEventListener('click', () => {
+            document.getElementById('inp-letter-title').value = tpl.letterTitle || state.letterTitle;
+            document.getElementById('inp-letter-body').value = tpl.letterBody || '';
+            document.getElementById('inp-delivery-speech').value = tpl.deliverySpeech || state.deliverySpeech;
+            saveFormToState();
+            showToast(`Loaded "${tpl.title}"!`);
+          });
+
+          pill.appendChild(loadBtn);
+          if (idx > 0) {
+            const delBtn = document.createElement('button');
+            delBtn.type = 'button';
+            delBtn.className = 'text-stone-400 hover:text-red-600 font-bold ml-1';
+            delBtn.textContent = '×';
+            delBtn.addEventListener('click', () => {
+              state.savedTemplates.splice(idx, 1);
+              renderTemplatesArchive();
+              saveFormToState();
+            });
+            pill.appendChild(delBtn);
+          }
+          container.appendChild(pill);
+        });
+      }
+
+      function renderCustomizerPhotoList() {
+        const listEl = document.getElementById('customizer-photo-list');
+        listEl.innerHTML = '';
+        (state.photos || []).forEach((photo, idx) => {
+          const row = document.createElement('div');
+          row.className = 'flex items-center gap-2 bg-white p-2 rounded-xl border border-stone-200';
+          const thumb = document.createElement('img');
+          thumb.src = photo.dataUrl;
+          thumb.className = 'w-11 h-11 rounded-lg object-cover shrink-0';
+          const capInput = document.createElement('input');
+          capInput.type = 'text';
+          capInput.value = photo.caption || '';
+          capInput.placeholder = 'Caption...';
+          capInput.className = 'flex-1 px-2.5 py-1 text-xs rounded-lg border border-stone-200';
+          capInput.addEventListener('input', () => {
+            state.photos[idx].caption = capInput.value;
+          });
+          const delBtn = document.createElement('button');
+          delBtn.type = 'button';
+          delBtn.className = 'px-2.5 py-1 rounded-lg bg-rose-100 text-rose-800 text-xs font-bold';
+          delBtn.textContent = 'Remove';
+          delBtn.addEventListener('click', () => {
+            state.photos.splice(idx, 1);
+            renderCustomizerPhotoList();
+            renderAllFromState();
+          });
+          row.appendChild(thumb);
+          row.appendChild(capInput);
+          row.appendChild(delBtn);
+          listEl.appendChild(row);
+        });
+      }
+
+      function openCustomizer() {
+        loadNaturalVoices();
+        document.getElementById('inp-recipient').value = state.recipientName;
+        document.getElementById('inp-sender').value = state.senderName;
+        document.getElementById('inp-cat').value = state.catName;
+        document.getElementById('inp-letter-title').value = state.letterTitle;
+        document.getElementById('inp-arrival-iso').value = state.arrivalIsoEgypt;
+        document.getElementById('inp-letter-body').value = state.letterBody;
+        document.getElementById('inp-delivery-speech').value = state.deliverySpeech;
+        document.getElementById('inp-countdown-speech').value = state.countdownSpeech;
+        document.getElementById('inp-voice-pitch').value = state.voicePitch || 1.05;
+        document.getElementById('inp-voice-rate').value = state.voiceRate || 0.94;
+        document.getElementById('lbl-pitch').textContent = state.voicePitch || 1.05;
+        document.getElementById('lbl-rate').textContent = state.voiceRate || 0.94;
+
+        renderTemplatesArchive();
+        renderCustomizerPhotoList();
+        updateShareableUrlInput();
+        customizerModal.classList.remove('hidden');
+      }
+
+      document.getElementById('btn-open-customizer').addEventListener('click', openCustomizer);
+      document.getElementById('btn-add-photo-quick').addEventListener('click', openCustomizer);
+      document.getElementById('btn-close-customizer').addEventListener('click', () => {
+        customizerModal.classList.add('hidden');
+      });
+
+      document.getElementById('inp-voice-pitch').addEventListener('input', (e) => {
+        document.getElementById('lbl-pitch').textContent = e.target.value;
+      });
+      document.getElementById('inp-voice-rate').addEventListener('input', (e) => {
+        document.getElementById('lbl-rate').textContent = e.target.value;
+      });
+
+      function saveFormToState() {
+        state.recipientName = document.getElementById('inp-recipient').value.trim() || 'Lenča';
+        state.senderName = document.getElementById('inp-sender').value.trim() || 'Azam';
+        state.catName = document.getElementById('inp-cat').value.trim() || 'Habibi';
+        state.letterTitle = document.getElementById('inp-letter-title').value.trim() || 'Dear My Love ❤️';
+        state.arrivalIsoEgypt = document.getElementById('inp-arrival-iso').value.trim() || '2026-11-02T09:00:00+02:00';
+        state.letterBody = document.getElementById('inp-letter-body').value;
+        state.deliverySpeech = document.getElementById('inp-delivery-speech').value;
+        state.countdownSpeech = document.getElementById('inp-countdown-speech').value;
+        state.voicePitch = parseFloat(document.getElementById('inp-voice-pitch').value) || 1.05;
+        state.voiceRate = parseFloat(document.getElementById('inp-voice-rate').value) || 0.94;
+        const vSel = document.getElementById('sel-natural-voice');
+        if (vSel && vSel.value) state.preferredVoiceName = vSel.value;
+
+        try {
+          localStorage.setItem('habibi_gift_lenca_v4', JSON.stringify(state));
+        } catch (e) {}
+
+        const encoded = encodeGiftPayload(state);
+        if (encoded) {
+          try {
+            history.replaceState(null, '', '#gift=' + encoded);
+          } catch (e) {}
+        }
+        updateShareableUrlInput();
+        renderAllFromState();
+      }
+
+      function showToast(msg) {
+        const t = document.getElementById('toast-msg');
+        t.textContent = msg;
+        t.classList.remove('hidden');
+        setTimeout(() => t.classList.add('hidden'), 2800);
+      }
+
+      document.getElementById('btn-copy-live-link').addEventListener('click', () => {
+        saveFormToState();
+        const url = updateShareableUrlInput();
+        const inp = document.getElementById('inp-live-share-url');
+        inp.select();
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).catch(() => {
+            document.execCommand('copy');
+          });
+        } else {
+          document.execCommand('copy');
+        }
+        showToast('🔗 Live Updated Link Saved & Copied! Send it to Lenča anytime!');
+      });
+
+      document.getElementById('btn-save-as-template').addEventListener('click', () => {
+        saveFormToState();
+        const snippet = (state.letterBody || '').slice(0, 24).replace(/\n/g, ' ') + '...';
+        state.savedTemplates = state.savedTemplates || [];
+        state.savedTemplates.push({
+          id: 'tpl-' + Date.now(),
+          title: `${new Date().toLocaleDateString()} — ${snippet}`,
+          letterTitle: state.letterTitle,
+          letterBody: state.letterBody,
+          deliverySpeech: state.deliverySpeech
+        });
+        renderTemplatesArchive();
+        saveFormToState();
+        showToast('📚 Saved to your reusable Letters Archive!');
+      });
+
+      document.getElementById('btn-test-natural-voice').addEventListener('click', () => {
+        saveFormToState();
+        speakWithSynchronizedCompletion(state.deliverySpeech, { lang: 'en-US', customAudioDataUrl: state.customIntroAudioDataUrl });
+      });
+
+      let mediaRecorder = null;
+      let audioChunks = [];
+      const recBtn = document.getElementById('btn-record-custom-voice');
+      recBtn.addEventListener('click', async () => {
+        if (mediaRecorder && mediaRecorder.state === 'recording') {
+          mediaRecorder.stop();
+          recBtn.textContent = '⏺️ Record Voice';
+          return;
+        }
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+          showToast('Microphone recording not available in this frame.');
+          return;
+        }
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          audioChunks = [];
+          mediaRecorder = new MediaRecorder(stream);
+          mediaRecorder.ondataavailable = (e) => { if (e.data.size > 0) audioChunks.push(e.data); };
+          mediaRecorder.onstop = () => {
+            stream.getTracks().forEach(t => t.stop());
+            const blob = new Blob(audioChunks, { type: 'audio/webm' });
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+              state.customIntroAudioDataUrl = ev.target.result;
+              saveFormToState();
+              showToast('🎙️ Real voice recorded & saved for Habibi!');
+            };
+            reader.readAsDataURL(blob);
+          };
+          mediaRecorder.start();
+          recBtn.textContent = '⏹️ Stop Recording...';
+        } catch (err) {
+          showToast('Could not access microphone for recording.');
+        }
+      });
+
+      document.getElementById('btn-clear-custom-voice').addEventListener('click', () => {
+        state.customIntroAudioDataUrl = '';
+        saveFormToState();
+        showToast('Reset to Natural AI Voice.');
+      });
+
+      document.getElementById('inp-photo-upload').addEventListener('change', (e) => {
+        const files = Array.from(e.target.files || []);
+        files.forEach(file => {
+          const reader = new FileReader();
+          reader.onload = (ev) => {
+            state.photos.push({
+              id: 'photo-' + Date.now(),
+              caption: file.name.replace(/\.[^.]+$/, ''),
+              dataUrl: ev.target.result
+            });
+            renderCustomizerPhotoList();
+            renderAllFromState();
+          };
+          reader.readAsDataURL(file);
+        });
+        e.target.value = '';
+      });
+
+      document.getElementById('btn-save-preview').addEventListener('click', () => {
+        saveFormToState();
+        customizerModal.classList.add('hidden');
+        showToast('✨ Saved! Your live gift page and shareable link are updated.');
+      });
+
+      document.getElementById('btn-export-html').addEventListener('click', () => {
+        saveFormToState();
+        const exportState = Object.assign({}, state, {
+          hideCustomizer: document.getElementById('inp-hide-edit-export').checked
+        });
+        configEl.textContent = '\n' + JSON.stringify(exportState, null, 2) + '\n';
+        customizerModal.classList.add('hidden');
+        const clone = document.documentElement.cloneNode(true);
+        initialClassSnapshot.forEach(([id, cls]) => { const el = clone.querySelector('#' + id); if (el) el.className = cls; });
+        const cv = clone.querySelector('#romantic-cover-overlay'); if (cv) cv.style.cssText = '';
+        const fullHtml = '<!DOCTYPE html>\n' + clone.outerHTML;
+        const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'index.html';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('💾 Downloaded updated index.html ready for GitHub!');
+      });
+
+      // =======================================================================
+      // 13. INITIALIZATION ON PAGE LOAD
+      const initialClassSnapshot = ['romantic-cover-overlay','envelope-stage','letter-stage','countdown-panel','envelope-top-flap','main-page-body'].map(id => [id, document.getElementById(id).className]);
+      // =======================================================================
+      window.addEventListener('load', () => {
+        renderAllFromState();
+        if (state.hideCustomizer) ['btn-open-customizer', 'btn-add-photo-quick'].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
+        const p = getPerchCoordinates('envelope');
+        catState.xPx = p.x;
+        catState.yPx = p.y;
+        setCatMode('perch_envelope');
+        setSpeech(state.greetingBubble);
+        requestAnimationFrame(animateHabibiLoop);
+      });
+    })();
+  </script>
+</body>
+</html>
